@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milkblue" >
+
+    <ImageView
+        android:id="@+id/ivRedBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red_date_day_bar" />
+
+    <LinearLayout
+        android:id="@+id/llTodaysDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivWeather"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today,"
+            android:textColor="@color/lightgrey"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tvTodaysDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00 jan 0000"
+            android:textColor="@color/lightgrey"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ivRedBar"
+        android:src="@drawable/grey_weather_bar" />
+
+    <TextView
+        android:id="@+id/tvTimeRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivWeather"
+        android:layout_marginLeft="10dp"
+        android:text="000"
+        android:textColor="@color/lightgrey"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvTimeRemaining"
+        android:layout_alignBottom="@+id/tvTimeRemaining"
+        android:layout_toRightOf="@+id/tvTimeRemaining"
+        android:text="MIN"
+        android:textColor="@color/darkyellow"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivSetTheTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivWeather"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/set_the_time" />
+
+    <ImageView
+        android:id="@+id/ivWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ivRedBar"
+        android:src="@drawable/grey_weather_bar" />
+
+    <ImageView
+        android:id="@+id/ivSetTimeBox"
+        android:layout_width="1000px"
+        android:layout_height="893px"
+        android:layout_alignLeft="@+id/ivSetTheTime"
+        android:layout_below="@+id/ivSetTheTime"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/blue_big_box2"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/rlMainBlueBox"
+        android:layout_width="325dp"
+        android:layout_height="350dp"
+        android:layout_alignLeft="@+id/ivSetTimeBox"
+        android:layout_alignTop="@+id/ivSetTimeBox"
+        android:layout_marginTop="7dp"
+        android:background="@color/bluedark" >
+
+        <RelativeLayout
+            android:id="@+id/rlMainContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvActivitiesName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="7dp"
+                android:text="Activities Name"
+                android:textColor="@color/lightgrey"
+                android:textSize="35sp" />
+
+            <LinearLayout
+                android:id="@+id/llTypeCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvActivitiesName"
+                android:layout_below="@+id/tvActivitiesName"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/ibUncheckedOneTimeBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/light_blue_check_box" />
+
+                <TextView
+                    android:id="@+id/tvOneTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="One time"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="30sp"
+                    android:visibility="visible" />
+
+                <ImageButton
+                    android:id="@+id/ibUncheckedRepetitiveBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/light_blue_check_box" />
+
+                <TextView
+                    android:id="@+id/tvRepetitive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="Repetitive"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="30sp"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llOneTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/llTypeCheckBox"
+                android:layout_below="@id/llTypeCheckBox"
+                android:orientation="horizontal"
+                android:visibility="invisible" >
+
+                <TextView
+                    android:id="@+id/tvHoursStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:hint="00"
+                    android:singleLine="true"
+                    android:textColor="@color/lightgrey"
+                    android:textColorHint="@color/transparentblue"
+                    android:textSize="50sp" />
+
+                <ImageView
+                    android:id="@+id/ivColon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/colon_small" />
+
+                <TextView
+                    android:id="@+id/tvMinutesStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:background="#00000000"
+                    android:hint="00"
+                    android:singleLine="true"
+                    android:textColor="@color/lightgrey"
+                    android:textColorHint="@color/transparentblue"
+                    android:textSize="50sp" />
+
+                <ImageView
+                    android:id="@+id/ivDash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/dash_time_seperator" />
+
+                <TextView
+                    android:id="@+id/tvHoursEnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="#00000000"
+                    android:hint="00"
+                    android:singleLine="true"
+                    android:textColor="@color/lightgrey"
+                    android:textColorHint="@color/transparentblue"
+                    android:textSize="50sp" />
+
+                <ImageView
+                    android:id="@+id/ivColon2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/colon_small" />
+
+                <TextView
+                    android:id="@+id/tvMinutesEnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:background="#00000000"
+                    android:hint="00"
+                    android:singleLine="true"
+                    android:textColor="@color/lightgrey"
+                    android:textColorHint="@color/transparentblue"
+                    android:textSize="50sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvActivityMinutes"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/llOneTime"
+                android:layout_below="@+id/llOneTime"
+                android:background="@color/darkyellow"
+                android:paddingLeft="5dp"
+                android:text=""
+                android:textColor="@color/darkgrey"
+                android:textSize="30sp"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/llRepetitive"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/llTypeCheckBox"
+                android:layout_below="@id/llTypeCheckBox"
+                android:orientation="vertical"
+                android:visibility="invisible" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvLoops"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Loops"
+                        android:textColor="@color/lightgrey"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text="/"
+                        android:textColor="@color/darkyellow"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        android:id="@+id/etLoops"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:background="#00000000"
+                        android:hint="0"
+                        android:inputType="numberSigned"
+                        android:singleLine="true"
+                        android:textColor="@color/lightgrey"
+                        android:textColorHint="@color/transparentblue"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:id="@+id/tvX"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:text="X"
+                        android:textColor="@color/darkyellow"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvLoopTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Loop Time"
+                        android:textColor="@color/lightgrey"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text="/"
+                        android:textColor="@color/darkyellow"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        android:id="@+id/etLoopTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:background="#00000000"
+                        android:hint="00"
+                        android:inputType="numberSigned"
+                        android:singleLine="true"
+                        android:textColor="@color/lightgrey"
+                        android:textColorHint="@color/transparentblue"
+                        android:textSize="40sp" />
+
+                    <EditText
+                        android:id="@+id/etLoopTimeType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:background="#00000000"
+                        android:hint="MIN"
+                        android:singleLine="true"
+                        android:textColor="@color/darkyellow"
+                        android:textColorHint="@color/transparentyellow"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvBreak"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Break"
+                        android:textColor="@color/lightgrey"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text="/"
+                        android:textColor="@color/darkyellow"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        android:id="@+id/etBreak"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:background="#00000000"
+                        android:hint="00"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberSigned"
+                        android:singleLine="true"
+                        android:textColor="@color/lightgrey"
+                        android:textColorHint="@color/transparentblue"
+                        android:textSize="40sp" />
+
+                    <EditText
+                        android:id="@+id/etBreakType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:background="#00000000"
+                        android:hint="MIN"
+                        android:imeOptions="actionDone"
+                        android:singleLine="true"
+                        android:textColor="@color/darkyellow"
+                        android:textColorHint="@color/transparentyellow"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/ibNextButtonBreak"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/next_button_small"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvStart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Start"
+                        android:textColor="@color/lightgrey"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text="/"
+                        android:textColor="@color/darkyellow"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/tvHoursR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:background="#00000000"
+                        android:hint="00"
+                        android:singleLine="true"
+                        android:textColor="@color/lightgrey"
+                        android:textColorHint="@color/transparentblue"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text=":"
+                        android:textColor="@color/darkyellow"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvMinutesR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:background="#00000000"
+                        android:hint="00"
+                        android:singleLine="true"
+                        android:textColor="@color/lightgrey"
+                        android:textColorHint="@color/transparentblue"
+                        android:textSize="40sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llEndTimeR"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="invisible" >
+
+                    <TextView
+                        android:id="@+id/tvEnd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="End"
+                        android:textColor="@color/lightgrey"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text="/"
+                        android:textColor="@color/darkyellow"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/tvEndHoursR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:background="#00000000"
+                        android:hint="00"
+                        android:singleLine="true"
+                        android:textColor="@color/lightgrey"
+                        android:textColorHint="@color/transparentblue"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:id="@+id/ivColonR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="4dp"
+                        android:text=":"
+                        android:textColor="@color/darkyellow" />
+
+                    <TextView
+                        android:id="@+id/tvEndMinutesR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:background="#00000000"
+                        android:hint="00"
+                        android:singleLine="true"
+                        android:textColor="@color/lightgrey"
+                        android:textColorHint="@color/transparentblue"
+                        android:textSize="40sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ivArrowBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:src="@drawable/yellow_arrow_backward"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/ivArrowForward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/yellow_arrow_forward" />
+
+        <TextView
+            android:id="@+id/tvDONE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlMainContent"
+            android:layout_centerHorizontal="true"
+            android:background="@color/darkyellow"
+            android:padding="5dp"
+            android:text="DONE"
+            android:textColor="@color/darkgrey"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout>

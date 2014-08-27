@@ -1,0 +1,49 @@
+// if the activity is use up freeTime
+						int ftcListIndex = 0;
+						boolean found = false;
+
+						// loop through freeTimeCard
+						while (!found && ftcListIndex < ftcList.size()) {
+							FreeTimeCard ftc = ftcList.get(ftcListIndex);
+							if (calculateTimeDifference(ftc
+									.getActivitiesPlaan().getStartTime(),
+									theActivity.getStartTime()) < 0) {
+								// if theActivity.startTime is after ftc
+								// startTime
+								if (calculateTimeDifference(ftc
+										.getActivitiesPlaan().getEndTime(),
+										theActivity.getEndTime()) > 0) {
+									// if theActivity.startTime is before ftc
+									// endTime
+									// It's possible to break the current ftc
+
+									// change the current freeTimeCard info
+									found=true;
+									ftc.getActivitiesPlaan().setInterval(
+											ftc.getActivitiesPlaan()
+													.getStartTime(),
+											theActivity.getStartTime());
+									long timeDuration = ftc
+											.getActivitiesPlaan().getInterval() * 60000;
+									ftc.setFreeTimeCardTextViews(ftc
+											.getActivitiesPlaan()
+											.getStartTime(), theActivity
+											.getStartTime(), timeDuration);
+
+									// add new activity
+									llLayoutActivityCard.removeView(theCard);
+									int indexOfFtc = llLayoutActivityCard
+											.indexOfChild(ftc);
+									llLayoutActivityCard.addView(theCard,
+											indexOfFtc + 1);
+									// add new freeTime, if neccesary
+									ActivityCard otherCard = (ActivityCard) llLayoutActivityCard
+											.getChildAt(indexOfFtc + 2);
+									setUpFreTimeCard(
+											theCard.getActivitiesPlaan(),
+											otherCard.getActivitiesPlaan());
+								}
+
+							}
+							ftcListIndex++;
+						}

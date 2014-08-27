@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milkblue" >
+
+    <ImageView
+        android:id="@+id/ivRedBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red_date_day_bar_eo" />
+
+    <ImageView
+        android:id="@+id/ivWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ivRedBar"
+        android:src="@drawable/grey_weather_bar" />
+
+    <ImageView
+        android:id="@+id/ivRedBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivWeather"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/red_date_day_bar_eo" />
+
+
+
+    <TextView
+        android:id="@+id/today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="30dp"
+        android:clickable="false"
+        android:text="Today,"
+        android:textColor="@color/lightgrey"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/todaysDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/today"
+        android:layout_alignBottom="@+id/today"
+        android:layout_toRightOf="@+id/today"
+        android:text="00 jan 0000"
+        android:textColor="@color/lightgrey"
+        android:textSize="50sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/testingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/ivWeather"
+        android:text="Testing" />
+
+</RelativeLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="340dp" >
+
+    <RelativeLayout
+        android:id="@+id/rlActivityCountDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:animateLayoutChanges="true"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/ivBackToActivitySetter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/yellow_arrow_backward" />
+
+        <RelativeLayout
+            android:id="@+id/rlCountDowntvNClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/ivCountDownClock"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/yellow_plaanish_clock" />
+
+            <TextView
+                android:id="@+id/tvBreakText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="55dp"
+                android:text="Break"
+                android:textColor="@color/lightergrey"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvCountDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="90dp"
+                android:text="2:00:00"
+                android:textColor="@color/lightergrey"
+                android:textSize="55sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvDONE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="67dp"
+                android:layout_marginTop="90dp"
+                android:text="DONE"
+                android:textColor="@color/lightergrey"
+                android:textSize="50sp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <com.example.plaandebug.AutoResizeTextView
+            android:id="@+id/tvActivitiesNameCD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlCountDowntvNClock"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:lines="1"
+            android:singleLine="false"
+            android:text="Finish Huffman"
+            android:textColor="@color/darkgrey"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvStartEndCD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvActivitiesNameCD"
+            android:layout_centerHorizontal="true"
+            android:text="09:30 - 11:30"
+            android:textColor="@color/greymild" />
+
+        <LinearLayout
+            android:id="@+id/llOneTimePropertiesCD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvStartEndCD"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/yellow_clock" />
+
+            <TextView
+                android:id="@+id/tvIntervalOTCD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="2HOURS"
+                android:textColor="@color/greymild"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llLoopingPropertiesCD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvStartEndCD"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/llTotalTimeLooping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvStartEndCD"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/yellow_clock" />
+
+                <TextView
+                    android:id="@+id/tvIntervalLoopCD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="2HOURS"
+                    android:textColor="@color/greymild"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvLoopingFreqCD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="0"
+                android:textColor="@color/greymild"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvXCD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:text="X"
+                android:textColor="@color/darkyellow"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ivLoopingIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/yellow_looping_icon" />
+
+            <TextView
+                android:id="@+id/tvLoopingTimeCD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:text="0MIN"
+                android:textColor="@color/greymild"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ivBreakIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/yellow_break_icon" />
+
+            <TextView
+                android:id="@+id/tvBreakTimeCD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0MIN"
+                android:textColor="@color/greymild"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvActivityTypeCD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llLoopingPropertiesCD"
+            android:layout_centerHorizontal="true"
+            android:text="Looping"
+            android:textColor="@color/darkyellow" />
+
+        <ImageView
+            android:id="@+id/ivTodoButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/yellow_task_icon"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/rlTaskLeftIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/yellow_task_left"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/tvTaskLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textColor="@color/lightergrey"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

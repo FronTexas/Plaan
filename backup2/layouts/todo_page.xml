@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTodoPage"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/milkblue" >
+
+    <ImageView
+        android:id="@+id/ivRedBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red_date_day_bar" />
+
+    <LinearLayout
+        android:id="@+id/llTodaysDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivWeather"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today,"
+            android:textColor="@color/lightgrey"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tvTodaysDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00 jan 0000"
+            android:textColor="@color/lightgrey"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ivRedBar"
+        android:src="@drawable/grey_weather_bar" />
+
+    <TextView
+        android:id="@+id/tvMinutesLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivWeather"
+        android:layout_marginLeft="10dp"
+        android:text="000"
+        android:textColor="@color/lightgrey"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvMinutesLeft"
+        android:layout_alignBottom="@+id/tvMinutesLeft"
+        android:layout_toRightOf="@+id/tvMinutesLeft"
+        android:text="MIN"
+        android:textColor="@color/darkyellow"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivTodo_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvMinutesLeft"
+        android:layout_below="@+id/ivWeather"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/to_do_bar" />
+
+    <ScrollView
+        android:id="@+id/svForActivities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ivTodo_bar"
+        android:layout_below="@+id/ivTodo_bar"
+        android:layout_marginTop="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/rlForETActivities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/etActivities"
+                android:layout_width="340dp"
+                android:layout_height="45dp"
+                android:background="@color/bluedark"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="@color/lightgrey"
+                android:textSize="35sp"
+                android:capitalize="sentences" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/bNextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/svForActivities"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/next_button" />
+
+</RelativeLayout>

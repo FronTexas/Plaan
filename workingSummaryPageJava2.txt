@@ -1,0 +1,319 @@
+package com.example.plaan;
+
+import java.util.ArrayList;
+
+import android.app.Activity;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.util.TypedValue;
+import android.view.Gravity;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.Window;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.RelativeLayout.LayoutParams;
+import android.widget.TextView;
+
+public class SummaryPage extends Activity implements OnClickListener {
+
+	TextView tvTodayText;
+	TextView tvTodaysDateText;
+	TextView tvMinutesLeft;
+	TextView tvMin;
+	TextView tvSummary;
+	RelativeLayout rlForSummaryBox;
+
+	float scaleDP;
+
+	ArrayList<ActivitiesPlaan> activitiesList;
+	int activitiesListIndex;
+	ActivitiesPlaan activitiesOnFocus;
+	int timeRemaining;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.summary_page);
+		activitiesListIndex = 0;
+		scaleDP = getApplicationContext().getResources().getDisplayMetrics().density;
+
+		initializeViews();
+		retreiveBundles();
+		setTypefaces();
+		setDates();
+
+		activitiesOnFocus = activitiesList.get(activitiesListIndex);
+		int i = 0;
+		for (i = 0; i < activitiesList.size(); i++) {
+			createSummaryBox(i);
+		}
+		RelativeLayout lastRlSummaryBox = (RelativeLayout) findViewById(Integer
+				.parseInt("777" + (i - 1)));
+
+		TextView tvStartCountDown = new TextView(this);
+		tvStartCountDown.setTextSize(TypedValue.COMPLEX_UNIT_SP, 30);
+		tvStartCountDown.setTextColor(Color.rgb(77, 77, 77));
+		tvStartCountDown.setBackgroundColor(Color.rgb(255, 204, 0));
+		tvStartCountDown.setText("START");
+		int padding = (int) (3 * scaleDP + 0.5f);
+		tvStartCountDown.setPadding(padding, 0, padding, 0);
+		TypefacePlaan tfp = new TypefacePlaan();
+		tfp.setTypeface(tvStartCountDown, tfp.LEAGUE_GOTHIC);
+		LayoutParams paramsFortvStartCountDown = new LayoutParams(
+				LayoutParams.WRAP_CONTENT,
+				android.view.ViewGroup.LayoutParams.WRAP_CONTENT);
+		paramsFortvStartCountDown.addRule(RelativeLayout.BELOW,
+				lastRlSummaryBox.getId());
+		paramsFortvStartCountDown.setMargins(0, (int) (20 * scaleDP + 0.5f), 0,
+				(int) (10 * scaleDP + 0.5f));
+		paramsFortvStartCountDown.addRule(RelativeLayout.CENTER_HORIZONTAL);
+		rlForSummaryBox.addView(tvStartCountDown, paramsFortvStartCountDown);
+		tvStartCountDown.setOnClickListener(this);
+	}
+
+	private String addZeros(String s) {
+		if (s.length() == 1) {
+			s = "0" + s;
+		}
+		return s;
+	}
+
+	private void initializeViews() {
+		tvMinutesLeft = (TextView) findViewById(R.id.tvMinutesLeft);
+		tvMin = (TextView) findViewById(R.id.tvMin);
+		tvTodayText = (TextView) findViewById(R.id.tvToday);
+		tvTodaysDateText = (TextView) findViewById(R.id.tvTodaysDate);
+		tvSummary = (TextView) findViewById(R.id.tvSummary);
+		rlForSummaryBox = (RelativeLayout) findViewById(R.id.rlForSummaryBox);
+	}
+
+	private void createSummaryBox(int i) {
+		int tvWidth = (int) (340 * scaleDP + 0.5f);
+		int tvHeight = (int) (70 * scaleDP + 0.5f);
+		TypefacePlaan tfp = new TypefacePlaan();
+
+		RelativeLayout newRlSummaryBox = new RelativeLayout(this);
+		int newRlSummaryBoxId = Integer.parseInt("777" + i);
+		newRlSummaryBox.setId(newRlSummaryBoxId);
+		LayoutParams paramsForNewRlSummaryBox = new LayoutParams(tvWidth,
+				tvHeight);
+		if (i != 0) {
+			paramsForNewRlSummaryBox.addRule(RelativeLayout.BELOW,
+					newRlSummaryBoxId - 1);
+			paramsForNewRlSummaryBox.addRule(RelativeLayout.ALIGN_LEFT,
+					newRlSummaryBoxId - 1);
+			paramsForNewRlSummaryBox.setMargins(0, (int) (10 * scaleDP + 0.5f),
+					0, 0);
+		}
+
+		// tvActivities
+		TextView newTvActivities = new TextView(this);
+		LayoutParams paramsForTvActivities = new LayoutParams(
+				LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+		paramsForTvActivities.addRule(RelativeLayout.CENTER_HORIZONTAL);
+		paramsForTvActivities.addRule(RelativeLayout.CENTER_VERTICAL);
+		int newTvActivitiesId = Integer.parseInt("888" + i);
+		newTvActivities.setId(newTvActivitiesId);
+		newTvActivities.setText(activitiesList.get(i).name);
+		newTvActivities.setTextColor(Color.rgb(77, 77, 77));
+		newTvActivities.setTextSize(TypedValue.COMPLEX_UNIT_SP, 40);
+		tfp.setTypeface(newTvActivities, tfp.LEAGUE_GOTHIC);
+		newRlSummaryBox.addView(newTvActivities, paramsForTvActivities);
+
+		// llBelowTvActivities
+		LinearLayout newLlBelowTvActivities = new LinearLayout(this);
+		LayoutParams paramsForNewLlBelowTvActivities = new LayoutParams(tvWidth
+				, (int) (20 * scaleDP + 0.5f));
+		int newLlBelowTvActivitiesId = Integer.parseInt("999" + i);
+		newLlBelowTvActivities.setId(newLlBelowTvActivitiesId);
+		paramsForNewLlBelowTvActivities.addRule(RelativeLayout.BELOW,
+				newTvActivitiesId);
+		paramsForNewLlBelowTvActivities.setMargins((int) (70 * scaleDP + 0.5f),
+				0, 0, 0);
+		newLlBelowTvActivities.setOrientation(LinearLayout.HORIZONTAL);
+		{
+			// IvYellow
+			ImageView newIvYellowBar = new ImageView(this);
+			LayoutParams paramsForNewIvYellowSmallBar = new LayoutParams(
+					(int) (8 * scaleDP + 0.5f), (int) (30 * scaleDP + 0.5f));
+			int newIvYellowBarId = Integer.parseInt("123" + i);
+			newIvYellowBar.setId(newIvYellowBarId);
+			paramsForNewIvYellowSmallBar.setMargins(
+					(int) (70 * scaleDP + 0.5f), 0, 0, 0);
+			newIvYellowBar.setBackgroundColor(Color.rgb(255, 204, 0));
+			newLlBelowTvActivities.addView(newIvYellowBar,
+					paramsForNewIvYellowSmallBar);
+
+			// llSummaryGrey
+			LinearLayout newLlSummaryGrey = new LinearLayout(this);
+			LayoutParams paramsForllSummaryGrey = new LayoutParams(
+					LayoutParams.MATCH_PARENT, (int) (30 * scaleDP + 0.5f));
+			int newLlSummaryGreyId = Integer.parseInt("124" + i);
+			newLlSummaryGrey.setId(newLlSummaryGreyId);
+			newLlSummaryGrey.setBackgroundColor(Color.rgb(230, 230, 230));
+			{
+				// initializing tv
+				TextView newTvStartSummary, newTvSlash1, newTvEndSummary, newTvSlash2, newTvIntervalSummary, newTvSlash3, newTvActivityType = new TextView(
+						this);
+				int textSize = 20;
+
+				// setting tvStartSummary
+				String startHours = ("" + activitiesList.get(i).startHours);
+				String startMinutes = ("" + activitiesList.get(i).startMinutes);
+
+				startHours = addZeros(startHours);
+				startMinutes = addZeros(startMinutes);
+
+				newTvStartSummary = new TextView(this);
+				LayoutParams paramsFornewtvStartSummary = new LayoutParams(
+						LayoutParams.WRAP_CONTENT, (int) (30 * scaleDP + 0.5f));
+				int newTvStartSummaryId = Integer.parseInt("125" + i);
+				newTvStartSummary.setId(newTvStartSummaryId);
+				paramsFornewtvStartSummary.setMargins(
+						(int) (10 * scaleDP + 0.5f), 0, -200, 0);
+				newTvStartSummary.setGravity(Gravity.CENTER);
+				newTvStartSummary.setText("Start " + startHours + ":"
+						+ startMinutes);
+				newTvStartSummary.setTextColor(Color.rgb(77, 77, 77));
+				newTvStartSummary.setTextSize(TypedValue.COMPLEX_UNIT_SP,
+						textSize);
+				tfp.setTypeface(newTvStartSummary, tfp.LEAGUE_GOTHIC);
+				newLlSummaryGrey.addView(newTvStartSummary,
+						paramsFornewtvStartSummary);
+
+				// adding newslash1
+				newTvSlash1 = new TextView(this);
+				LayoutParams paramsFornewTVSlash1 = new LayoutParams(
+						LayoutParams.WRAP_CONTENT, (int) (30 * scaleDP + 0.5f));
+				int newTvSlash1Id = Integer.parseInt("126" + i);
+				newTvSlash1.setId(newTvSlash1Id);
+				newTvSlash1.setGravity(Gravity.CENTER);
+				newTvSlash1.setText("/");
+				newTvSlash1.setTextColor(Color.rgb(255, 204, 0));
+				newTvSlash1.setTextSize(TypedValue.COMPLEX_UNIT_SP, textSize);
+				tfp.setTypeface(newTvSlash1, tfp.LEAGUE_GOTHIC);
+				newLlSummaryGrey.addView(newTvSlash1, paramsFornewTVSlash1);
+
+				// tvEndSummary
+				String endHours = ("" + activitiesList.get(i).endHours);
+				String endMinutes = ("" + activitiesList.get(i).endMinutes);
+				endHours = addZeros(endHours);
+				endMinutes = addZeros(endMinutes);
+
+				newTvEndSummary = new TextView(this);
+				LayoutParams paramsForNewTvEndSummary = new LayoutParams(
+						LayoutParams.WRAP_CONTENT, (int) (30 * scaleDP + 0.5f));
+				int newTvEndSummaryId = Integer.parseInt("127" + i);
+				newTvEndSummary.setId(newTvEndSummaryId);
+				newTvEndSummary.setGravity(Gravity.CENTER);
+				newTvEndSummary.setText("End " + endHours + ":" + endMinutes);
+				newTvEndSummary.setTextColor(Color.rgb(77, 77, 77));
+				newTvEndSummary.setTextSize(TypedValue.COMPLEX_UNIT_SP,
+						textSize);
+				tfp.setTypeface(newTvEndSummary, tfp.LEAGUE_GOTHIC);
+				newLlSummaryGrey.addView(newTvEndSummary,
+						paramsForNewTvEndSummary);
+
+				// tvSlash2
+				newTvSlash2 = new TextView(this);
+				LayoutParams paramsFornewTVSlash2 = new LayoutParams(
+						LayoutParams.WRAP_CONTENT, (int) (30 * scaleDP + 0.5f));
+				newTvSlash2.setGravity(Gravity.CENTER);
+				int newTvSlash2Id = Integer.parseInt("128" + i);
+				newTvSlash2.setId(newTvSlash2Id);
+				newTvSlash2.setText("/");
+				newTvSlash2.setTextColor(Color.rgb(255, 204, 0));
+				newTvSlash2.setTextSize(TypedValue.COMPLEX_UNIT_SP, textSize);
+				tfp.setTypeface(newTvSlash2, tfp.LEAGUE_GOTHIC);
+				newLlSummaryGrey.addView(newTvSlash2, paramsFornewTVSlash2);
+
+				// tvIntevalSummary
+				newTvIntervalSummary = new TextView(this);
+				LayoutParams paramsForNewTvIntervalSummary = new LayoutParams(
+						LayoutParams.WRAP_CONTENT, (int) (30 * scaleDP + 0.5f));
+				int newTvIntervalSummaryId = Integer.parseInt("129" + i);
+				newTvIntervalSummary.setId(newTvIntervalSummaryId);
+				newTvIntervalSummary.setGravity(Gravity.CENTER);
+				newTvIntervalSummary.setText(activitiesList.get(i).interval
+						+ "MIN");
+				newTvIntervalSummary.setTextColor(Color.rgb(77, 77, 77));
+				newTvIntervalSummary.setTextSize(TypedValue.COMPLEX_UNIT_SP,
+						textSize);
+				tfp.setTypeface(newTvIntervalSummary, tfp.LEAGUE_GOTHIC);
+				newLlSummaryGrey.addView(newTvIntervalSummary,
+						paramsForNewTvIntervalSummary);
+
+				// tvSlash3
+				newTvSlash3 = new TextView(this);
+				LayoutParams paramsFornewTVSlash3 = new LayoutParams(
+						LayoutParams.WRAP_CONTENT, (int) (30 * scaleDP + 0.5f));
+				newTvSlash3.setGravity(Gravity.CENTER);
+				int newTvSlash3Id = Integer.parseInt("130" + i);
+				newTvSlash3.setId(newTvSlash3Id);
+				newTvSlash3.setText("/");
+				newTvSlash3.setTextColor(Color.rgb(255, 204, 0));
+				newTvSlash3.setTextSize(TypedValue.COMPLEX_UNIT_SP, textSize);
+				tfp.setTypeface(newTvSlash3, tfp.LEAGUE_GOTHIC);
+				newLlSummaryGrey.addView(newTvSlash3, paramsFornewTVSlash3);
+
+				// tvActivityType
+				LayoutParams paramsForNewTvActivityType = new LayoutParams(
+						LayoutParams.WRAP_CONTENT, (int) (30 * scaleDP + 0.5f));
+				newTvActivityType.setGravity(Gravity.CENTER);
+				int newTvActivityTypeId = Integer.parseInt("131" + i);
+				newTvActivityType.setId(newTvActivityTypeId);
+				String type = "";
+				if (activitiesList.get(i).type == activitiesList.get(i).TYPE_ONE_TIME) {
+					type = "One Time";
+				} else {
+					type = "Repetitive";
+				}
+				newTvActivityType.setText(type);
+				newTvActivityType.setTextColor(Color.rgb(77, 77, 77));
+				newTvActivityType.setTextSize(TypedValue.COMPLEX_UNIT_SP,
+						textSize);
+				tfp.setTypeface(newTvActivityType, tfp.LEAGUE_GOTHIC);
+				newLlSummaryGrey.addView(newTvActivityType,
+						paramsForNewTvActivityType);
+
+				// adding newLlSummaryGrey TO newLlBelowTvActivities
+				newLlBelowTvActivities.addView(newLlSummaryGrey,
+						paramsForllSummaryGrey);
+			}
+			newRlSummaryBox.addView(newLlBelowTvActivities,
+					paramsForNewLlBelowTvActivities);
+		}
+		// adding all layouts
+		rlForSummaryBox.addView(newRlSummaryBox, paramsForNewRlSummaryBox);
+	}
+
+	private void retreiveBundles() {
+		Bundle extras = getIntent().getExtras();
+		timeRemaining = extras.getInt("timeRemaining");
+		activitiesList = extras.getParcelableArrayList("activitiesList");
+	}
+
+	private void setDates() {
+		CalendarSetter cs = new CalendarSetter();
+		cs.setCalendar(tvTodayText, tvTodaysDateText);
+	}
+
+	private void setTypefaces() {
+		TypefacePlaan tfp = new TypefacePlaan();
+		tfp.setTypeface(tvTodaysDateText, tfp.LEAGUE_GOTHIC);
+		tfp.setTypeface(tvTodayText, tfp.TITILIUM);
+		tfp.setTypeface(tvMinutesLeft, tfp.LEAGUE_GOTHIC);
+		tfp.setTypeface(tvMin, tfp.LEAGUE_GOTHIC);
+		tfp.setTypeface(tvSummary, tfp.LEAGUE_GOTHIC);
+	}
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

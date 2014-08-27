@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Plaan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="darkyellow">#FFCC00</color>
+    <color name="milkblue">#5fbcd3</color>
+    <color name="lightgrey">#f2f2f2</color>
+    <color name="transparentblue">#94d2e1</color>
+    <color name="transparentyellow">#92c18f</color>
+    <color name="darkgrey">#4d4d4d</color>
+    <color name="blackyellow">#897833</color>
+    <color name="darkeryellow">#ffb300</color>
+    <color name="redyellow">#d34e2c</color>
+    <color name="redplaan">#c83737</color>
+    <color name="bluedark">#5294a5</color>
+    <color name="darklightgrey">#cccccc</color>
+    <color name="greyblue">#80afbb</color>
+    <color name="darkquitegrey">#e6e6e6</color>
+    <color name="lightergrey">#f9f9f9</color>
+    <color name="blueblack">#50747e</color>
+    <color name="greyblack">#95acb3</color>
+    <color name="yellowblack">#a49e41</color>
+    <color name="bluesky">#d7eef4</color>
+    <color name="greymild">#b3b3b3</color>
+    <color name="greyred">#dd8b8b</color>
+    <color name="transparent">#00000000</color>
+    <color name="greylightgrey">#ebecec</color>
+    <color name="grey">#b3b3b3</color>
+    <color name="greydarkyellow">#faeaa5</color>
+
+</resources>
