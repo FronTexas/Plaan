@@ -12,6 +12,7 @@ import android.graphics.Color;
 import android.support.v4.app.FragmentManager;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -42,14 +43,15 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 
 	TypefacePlaan tfp;
 
-	// root
+	/** The root in the xml */
 	LinearLayout llRootActivityCard;
 
-	// parentScrollView
+	/** A ScrollView coming from ScrollingUI. */
 	ScrollView parentScrollView;
 
-	// the ActivitiesPlaan properties
+	/** The ActivitiesPlaan that correspons to this ActivityCard */
 	ActivitiesPlaan theActivity;
+
 	EditText etActivityName;
 	RelativeLayout rlOneTimeText, rlLoopingText;
 	int activity_type;
@@ -786,8 +788,9 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 		String loopTimeString = tvSetPicker_looping.getText().toString();
 		SimpleDateFormat formatter = null;
 
-		if (loopTimeString.length() == 10) {
+		if (loopTimeString.length() == 8) {
 			// HH:mm:ss formatter
+			Log.d("Resetting time error", "RTE -- Getting into 8 formatter");
 			formatter = new SimpleDateFormat("HH:mm:ss");
 		} else if (loopTimeString.length() == 5) {
 			// mm:ss formatter
@@ -798,6 +801,11 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 		}
 
 		Date loopTime_date = null;
+		Log.d("Resetting time error", "RTE -- loopTimeString = "
+				+ loopTimeString);
+		Log.d("Resetting time error", "RTE -- loopTimeString.length = "
+				+ loopTimeString.length());
+		Log.d("Resetting time error", "RTE -- formatter = " + formatter);
 		try {
 			loopTime_date = formatter.parse(loopTimeString);
 		} catch (ParseException e) {
@@ -810,10 +818,10 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 
 		String breakTimeString = tvSetPicker_breakLooping.getText().toString();
 
-		if (breakTimeString.length() == 10) {
+		if (breakTimeString.length() == 8) {
 			// HH:mm:ss formatter
 			formatter = new SimpleDateFormat("HH:mm:ss");
-		} else if (breakTimeString.length() == 6) {
+		} else if (breakTimeString.length() == 5) {
 			// mm:ss formatter
 			formatter = new SimpleDateFormat("mm:ss");
 		} else if (breakTimeString.length() == 2) {
