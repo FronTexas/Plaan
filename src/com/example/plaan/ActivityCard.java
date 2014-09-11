@@ -447,17 +447,11 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 			if (allOneTimePropertiesFilled()
 					&& llOneTime.getVisibility() == View.VISIBLE)
 				calculateOneTimeInterval();
-			//			TimePickerBuilder btp = new TimePickerBuilder().setFragmentManager(
-			//					fragmentManager).setStyleResId(
-			//					R.style.BetterPickersDialogFragment);
-			//			btp.addTimeSetListener(this);
-			//			btp.show();
-
 		} else if (v.getId() == ivToDoButton.getId()
 				|| v.getId() == rlTaskLeftIcon.getId()) {
 			// TODO_BUTTON / rlTaskLeft
 			vgActivityCountDown.setVisibility(View.GONE);
-			tvActivityNameTD.setText(theActivity.name);
+			tvActivityNameTD.setText(theActivity.getName());
 			rlToDo.setVisibility(View.VISIBLE);
 
 			// make sure no todo_bar already there

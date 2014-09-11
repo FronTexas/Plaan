@@ -10,39 +10,50 @@ import android.util.Log;
 
 @SuppressLint("SimpleDateFormat")
 public class ActivitiesPlaan implements Parcelable {
+
+	/** Basic info about this instance of ActivitiesPlaan */
+	private String name;
+	// activityType is either TYPE_NONE or TYPE_ONE_TIME or TYPE_LOOPING
+	private int activityType;
+	private ActivityCard activityCard;
+	int id;
+
+	/** Default type for instance of ActivitiesPlaan */
 	public static int TYPE_NONE = -1;
+
+	/** Type of OneTime for the instance of ActivitiesPlaan */
 	public static int TYPE_ONE_TIME = 1;
+
+	/** Type of Looping for the instance of ActivitiesPlaan */
 	public static int TYPE_LOOPING = 2;
-	final int MERIDIEM_ADJUSTMENT = 1200;
-	final int ONE_HOUR = 60;
-	public final static int LOOPTYPE_MINUTE = 1;
-	public final static int LOOPTYPE_HOUR = 2;
 
-	public static int BREAK_STATE = 7;
+	/**
+	 * PRE : activityType = TYPE_LOOPING. To determine wether this instance is
+	 * in Looping state or in Breaking state
+	 */
+	int state;
 	public static int LOOPING_STATE = 8;
+	public static int BREAK_STATE = 7;
 
-	String name;
-	int type;
-	ActivityCard activityCard;
-
+	/** Gonna be the startTime of the activities. The unit is in milliseconds */
 	long startTime;
 	String startTime_string;
 
+	/** Gonna be the endTime of the activities. The unit is in milliseconds */
 	long endTime;
 	String endTime_string;
 
+	/** All neccesary data to construct a TYPE_LOOPING activitiesPlaan */
 	long loops;
 	long loopTime;
+	// original_looptime & original_breaktime will be used to restore loopTime and
+	// or breakTime if they happen to change in the runtime.
 	long original_looptime;
 	long original_breaktime;
 	long loopTimeType;
 	long breakTime;
 	long breakType;
 	long interval;
-
-	int id;
-
-	int state;
 
 	public static final Parcelable.Creator<ActivitiesPlaan> CREATOR = new Parcelable.Creator<ActivitiesPlaan>() {
 		public ActivitiesPlaan createFromParcel(Parcel in) {
@@ -58,7 +69,7 @@ public class ActivitiesPlaan implements Parcelable {
 	// with it's values
 	private ActivitiesPlaan(Parcel in) {
 		name = in.readString();
-		type = in.readInt();
+		activityType = in.readInt();
 		startTime = in.readLong();
 		startTime_string = in.readString();
 		endTime = in.readLong();
@@ -77,7 +88,7 @@ public class ActivitiesPlaan implements Parcelable {
 
 	public ActivitiesPlaan(String name, int type) {
 		this.name = name;
-		this.type = type;
+		this.activityType = type;
 		startTime = -1;
 		endTime = -1;
 		loops = -1;
@@ -106,6 +117,14 @@ public class ActivitiesPlaan implements Parcelable {
 		id = 0;
 	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -127,36 +146,22 @@ public class ActivitiesPlaan implements Parcelable {
 	}
 
 	public void setType(int type) {
-		this.type = type;
+		this.activityType = type;
 
 	}
 
+	public int getType() {
+		return activityType;
+	}
+
 	public String getTypeString() {
-		if (type == TYPE_ONE_TIME)
+		if (activityType == TYPE_ONE_TIME)
 			return "One Time";
 		else
 			return "Looping";
 	}
 
-	public int getType() {
-		return type;
-	}
-
-	public String getLoopType() {
-		if (loopTimeType == LOOPTYPE_MINUTE)
-			return "MIN";
-		else
-			return "HRS";
-	}
-
-	public String getBreakTimeType() {
-		if (breakType == LOOPTYPE_MINUTE)
-			return "MIN";
-		else
-			return "HRS";
-	}
-
-	public int getCurrentState() {
+	public int getState() {
 		return state;
 	}
 
@@ -170,7 +175,7 @@ public class ActivitiesPlaan implements Parcelable {
 	 *            startTime,endTime,and interval are set.
 	 */
 	public void setInterval(String startTime, String endTime) {
-		if (this.type == TYPE_ONE_TIME) {
+		if (this.activityType == TYPE_ONE_TIME) {
 			SimpleDateFormat format = new SimpleDateFormat("HH:mm");
 			Date start = null;
 			Date end = null;
@@ -203,7 +208,7 @@ public class ActivitiesPlaan implements Parcelable {
 					e.printStackTrace();
 				}
 			}
-		} else if (this.type == TYPE_LOOPING) {
+		} else if (this.activityType == TYPE_LOOPING) {
 			throw new IllegalArgumentException(
 					"setInterval pre-condition not met. type is not ONE_TIME");
 		}
@@ -226,7 +231,7 @@ public class ActivitiesPlaan implements Parcelable {
 	 */
 	public void setInterval(String startTime, int loops, long loopTime,
 			long breakTime) {
-		if (this.type == TYPE_LOOPING) {
+		if (this.activityType == TYPE_LOOPING) {
 			Date start = null;
 			SimpleDateFormat format = new SimpleDateFormat("HH:mm");
 			try {
@@ -253,7 +258,7 @@ public class ActivitiesPlaan implements Parcelable {
 			end.setTime(endTime);
 			endTime_string = formatter.format(end);
 
-		} else if (this.type == TYPE_ONE_TIME) {
+		} else if (this.activityType == TYPE_ONE_TIME) {
 			throw new IllegalArgumentException(
 					"setInterval pre-condition not met. type is not REPETITIVE");
 		}
@@ -277,10 +282,6 @@ public class ActivitiesPlaan implements Parcelable {
 
 	}
 
-	public int getState() {
-		return state;
-	}
-
 	public String getStartTime() {
 		return startTime_string;
 	}
@@ -292,32 +293,16 @@ public class ActivitiesPlaan implements Parcelable {
 		startTime_string = formatter.format(date);
 	}
 
+	public String getEndTime() {
+		return endTime_string;
+	}
+
 	public void addEndTime(long millisExtra) {
 		endTime += millisExtra;
 		Date date = new Date(endTime);
 		SimpleDateFormat formatter = new SimpleDateFormat("HH:mm");
 		endTime_string = formatter.format(date);
 	}
-
-	public String getEndTime() {
-		return endTime_string;
-	}
-
-	//	public String getStartHours() {
-	//		return addZeros("" + startHours);
-	//	}
-	//
-	//	public String getStartMinutes() {
-	//		return addZeros("" + startMinutes);
-	//	}
-	//
-	//	public String getEndHours() {
-	//		return addZeros("" + endHours);
-	//	}
-	//
-	//	public String getEndMinutes() {
-	//		//		return addZeros("" + endMinutes);
-	//	}
 
 	public void decreaseLoops() {
 		loops--;
@@ -359,7 +344,7 @@ public class ActivitiesPlaan implements Parcelable {
 	@Override
 	public void writeToParcel(Parcel out, int flags) {
 		out.writeString(name);
-		out.writeInt(type);
+		out.writeInt(activityType);
 		out.writeLong(startTime);
 		out.writeString(startTime_string);
 		out.writeLong(endTime);

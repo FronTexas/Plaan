@@ -107,7 +107,7 @@ public class CountDownTimerPlaan extends Service {
 
 		// run the actual timer
 		try {
-			activitiesCDT = new CountDownTimer(time , 1000) {
+			activitiesCDT = new CountDownTimer(time, 1000) {
 				public void onTick(long millisUntilFinished) {
 					// is the  countdown running
 					isTimerRunning = true;
@@ -124,7 +124,7 @@ public class CountDownTimerPlaan extends Service {
 					String s = formatStringMillis(format);
 
 					// set count_down_text
-					if (theActivities.name != "Free Time") {
+					if (theActivities.getName() != "Free Time") {
 						activityCardOnFocus.setTvCountDownText(s, true);
 					} else {
 						activityCardOnFocus.setTvCountDownText(s, false);
@@ -148,16 +148,16 @@ public class CountDownTimerPlaan extends Service {
 
 				private void spawnRuningTimerNotification(String s) {
 					cdBuilder.setSmallIcon(R.drawable.plaan_icon_small);
-					if (theActivities.type == ActivitiesPlaan.TYPE_ONE_TIME) {
-						cdBuilder.setContentTitle(theActivities.name);
+					if (theActivities.getType() == ActivitiesPlaan.TYPE_ONE_TIME) {
+						cdBuilder.setContentTitle(theActivities.getName());
 					} else {
 						if (theActivities.getState() == ActivitiesPlaan.LOOPING_STATE) {
-							cdBuilder.setContentTitle(theActivities.name + ", "
-									+ theActivities.getLoopLeft()
+							cdBuilder.setContentTitle(theActivities.getName()
+									+ ", " + theActivities.getLoopLeft()
 									+ " Loop left");
 						} else {
 							cdBuilder.setContentTitle("Break of "
-									+ theActivities.name + " , "
+									+ theActivities.getName() + " , "
 									+ theActivities.getLoopLeft()
 									+ " Loop left");
 						}
@@ -188,7 +188,7 @@ public class CountDownTimerPlaan extends Service {
 					ActivitiesPlaan theActivies = activitiesList
 							.get(activitiesListIndex);
 
-					if (theActivies.type == ActivitiesPlaan.TYPE_LOOPING
+					if (theActivies.getType() == ActivitiesPlaan.TYPE_LOOPING
 							&& theActivies.getLoopLeft() != 0) {
 						// incumbent running activity is TYPE_LOOPING
 
@@ -196,7 +196,7 @@ public class CountDownTimerPlaan extends Service {
 						theActivies.resetLoopTime();
 						theActivies.resetBreakTime();
 
-						if (theActivies.getCurrentState() == ActivitiesPlaan.BREAK_STATE) {
+						if (theActivies.getState() == ActivitiesPlaan.BREAK_STATE) {
 							// Just finish Break time
 							// Will notify to Run Looping time
 
@@ -208,21 +208,21 @@ public class CountDownTimerPlaan extends Service {
 									.decreaseLoopLeftText();
 
 							// Notif to run Looping time
-							cdBuilder.setTicker(theActivies.name + " , "
+							cdBuilder.setTicker(theActivies.getName() + " , "
 									+ theActivies.getLoopLeft() + " Loop left");
 							showNotification("", "");
 
 						} else {
 							// Just finish Looping time
 							// Will notify to Run Break  time
-							cdBuilder.setTicker("Break of " + theActivies.name
-									+ " , " + theActivies.getLoopLeft()
-									+ " Loop left");
+							cdBuilder.setTicker("Break of "
+									+ theActivies.getName() + " , "
+									+ theActivies.getLoopLeft() + " Loop left");
 							showNotification("", "");
 						}
 
 						// Altering the state from Looping to break, vice versa
-						theActivies.alterState(theActivies.getCurrentState());
+						theActivies.alterState(theActivies.getState());
 
 						// recursive call
 						startCountDown();
@@ -237,7 +237,7 @@ public class CountDownTimerPlaan extends Service {
 									.get(activitiesListIndex);
 
 							// Set ticker with the next activities name
-							cdBuilder.setTicker(nextActivities.name
+							cdBuilder.setTicker(nextActivities.getName()
 									+ " Started");
 							showNotification("", "");
 
@@ -253,7 +253,7 @@ public class CountDownTimerPlaan extends Service {
 				private void markFinishedActivity(ActivitiesPlaan theActivies) {
 					ActivityCard finishedCard = theActivies.getActivityCard();
 					finishedCard.llRootActivityCard.setAlpha(0.5f);
-					if (!finishedCard.getActivitiesPlaan().name
+					if (!finishedCard.getActivitiesPlaan().getName()
 							.equals("Free Time")) {
 						finishedCard.tvCountDown.setVisibility(View.GONE);
 						finishedCard.tvDONE.setVisibility(View.VISIBLE);
@@ -284,7 +284,7 @@ public class CountDownTimerPlaan extends Service {
 
 		// If the actvity type is looping, time is either loopingTime or breakTime
 		if (theActivities.getType() == ActivitiesPlaan.TYPE_LOOPING) {
-			if (theActivities.getCurrentState() == ActivitiesPlaan.LOOPING_STATE) {
+			if (theActivities.getState() == ActivitiesPlaan.LOOPING_STATE) {
 				activityCardOnFocus.setTvBreakVisibility(View.INVISIBLE);
 				if (theActivities.getLoopLeft() == 0) {
 					// If there is no loop left, there will be no time left
@@ -293,7 +293,7 @@ public class CountDownTimerPlaan extends Service {
 					// If there is loop left, time will be the loopTime
 					time = theActivities.loopTime();
 				}
-			} else if (theActivities.getCurrentState() == ActivitiesPlaan.BREAK_STATE) {
+			} else if (theActivities.getState() == ActivitiesPlaan.BREAK_STATE) {
 				activityCardOnFocus
 						.setCountDownImageView(R.drawable.green_play_clock);
 				time = theActivities.breakTime();
@@ -336,7 +336,7 @@ public class CountDownTimerPlaan extends Service {
 			elapsedTime = System.currentTimeMillis() - startTime;
 			int[] format = new int[3];
 			formatMillis(format, elapsedTime);
-			if (activityCardOnFocus.getActivitiesPlaan().name != "Free Time")
+			if (activityCardOnFocus.getActivitiesPlaan().getName() != "Free Time")
 				activityCardOnFocus.setTvCountDownText(addZeros("" + format[0])
 						+ ":" + addZeros("" + format[1]) + ":"
 						+ addZeros("" + format[2]), true);
