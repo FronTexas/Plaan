@@ -40,9 +40,6 @@ import com.zenkun.datetimepicker.time.TimePickerDialog.OnTimeSetListener;
 @SuppressLint({ "ViewConstructor", "SimpleDateFormat" })
 public class ActivityCard extends RelativeLayout implements OnClickListener,
 		OnTimeSetListener, TextWatcher, OnEditorActionListener {
-
-	TypefacePlaan tfp;
-
 	/** The root in the xml */
 	LinearLayout llRootActivityCard;
 
@@ -52,22 +49,30 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 	/** The ActivitiesPlaan that correspons to this ActivityCard */
 	ActivitiesPlaan theActivity;
 
+	/** Will be some sort of ID to this particular instance of ActivityCard */
+	int tag;
+
+	/**
+	 * The ViewGroup that will show user the page to set the activitiesPlaan
+	 * properties
+	 */
+	RelativeLayout rlActivitySetter;
 	EditText etActivityName;
 	RelativeLayout rlOneTimeText, rlLoopingText;
 	int activity_type;
 
-	// ActivityCard properties
-	int tag;
-
-	// ActivitiesSetter
-	RelativeLayout rlActivitySetter;
-
-	// oneTime
+	/**
+	 * ViewGroup that is part of rlActivitySetter viewGroup
+	 * Shows the option settings when setting up a TYPE_ONETIME activitiesPlaan
+	 */
 	LinearLayout llOneTime;
 	TextView tvOneTime, tvLooping, tvStartOneTime, tvStartHoursOneTime,
 			tvEndOneTime, tvEndHoursOneTime, tvSetPicker_oneTime;
 
-	// looping
+	/**
+	 * ViewGroup that is part of rlActivitySetter viewGroup
+	 * Shows the option settings when setting up a TYPE_LOOPING activitiesPlaan
+	 */
 	LinearLayout llLooping;
 	LinearLayout llStartEndLooping, rlStartSectionLooping, rlEndSectionLooping;
 	LinearLayout llLoopingSettings;
@@ -76,12 +81,20 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 			tvSetPicker_breakLooping;
 	EditText etLoopingFreq;
 
-	// setButton
+	/**
+	 * ViewGroup that is part of rlActivitySetter viewGroup
+	 * Shows yellow set button in the bottom of this activityCard
+	 */
 	RelativeLayout rlSET_Button;
 	TextView tvSET;
 	onSetClickListener osc;
 
-	// ActivityCountDown
+	/**
+	 * The ViewGroup that will show user the page of running countdown of this
+	 * activitiesPlaan.
+	 * Also will show some basic info of the activity like : activity's name,
+	 * startTime , endTime, & type
+	 */
 	AutoResizeTextView tvActivitiesNameCD;
 	ViewGroup vgActivityCountDown;
 	TextView tvCountDown, tvStartEndCD, tvIntervalOTCD, tvLoopingFreqCD, tvXCD,
@@ -91,7 +104,10 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 	ImageView ivToDoButton, ivBackToActivitySetter, ivCountDownClock;
 	boolean backToActivtySetterClicked;
 
-	// To Do
+	/**
+	 * The ViewGroup that will show user the page of list of 'to-do list' for
+	 * this particular activitiesPlaan.
+	 */
 	RelativeLayout rlToDo;
 	ViewGroup llToDoList, rlTaskLeftIcon;
 	TextView tvToDo, tvActivityNameTD;
@@ -102,12 +118,33 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 	final int todobar_idHeader = 112;
 	int todobar_idCounter = 0;
 
+	/**
+	 * An instance of TypeFacePlaan to set the typeface of textviews in this
+	 * activityCard
+	 */
+	TypefacePlaan tfp;
+
+	/**
+	 * Fragment manager that will be used to create fragment of bunch of dialog
+	 * i.e : timeSetter dialog, hmspicker dialog
+	 * (Will be passed from the client to the constructor)
+	 */
 	FragmentManager fragmentManager;
+
+	/**
+	 * To keep track of the app's context
+	 * (Will be passed from the client to the constructor)
+	 */
 	Context context;
 
+	/**
+	 * To keep track what are the last view that is clicked on this activityCard
+	 */
 	int lastThingClicked;
 
+	/** To concert int to density pixels */
 	float scaleDP = getResources().getDisplayMetrics().density;
+
 	LayoutInflater layoutInflater;
 
 	public ActivityCard(Context context) {
