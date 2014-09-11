@@ -6,7 +6,6 @@ import java.util.Date;
 import android.annotation.SuppressLint;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.text.format.DateFormat;
 import android.util.Log;
 
 @SuppressLint("SimpleDateFormat")
@@ -226,7 +225,7 @@ public class ActivitiesPlaan implements Parcelable {
 	 * @paraam breakTimeType Break type. It's either minutes or hours.
 	 */
 	public void setInterval(String startTime, int loops, long loopTime,
-			int loopType, long breakTime, int breakTimeType) {
+			long breakTime) {
 		if (this.type == TYPE_LOOPING) {
 			Date start = null;
 			SimpleDateFormat format = new SimpleDateFormat("HH:mm");
@@ -239,11 +238,9 @@ public class ActivitiesPlaan implements Parcelable {
 			this.loops = loops;
 			this.loopTime = loopTime;
 			this.original_looptime = loopTime;
-			this.loopTimeType = loopType;
 
 			this.breakTime = breakTime;
 			this.original_breaktime = breakTime;
-			this.breakType = breakTimeType;
 
 			// interval is in milliseconds
 			interval = loops * (loopTime + breakTime);
@@ -272,14 +269,6 @@ public class ActivitiesPlaan implements Parcelable {
 
 	public void setInterval(long interval) {
 		this.interval = interval;
-	}
-
-	private void checkForMoreThan(long[] time, int usualNumber,
-			long[] hoursIncreased) {
-		while (time[0] >= usualNumber) {
-			time[0] -= usualNumber;
-			hoursIncreased[0]++;
-		}
 	}
 
 	public long getInterval() {
@@ -355,13 +344,6 @@ public class ActivitiesPlaan implements Parcelable {
 			state = BREAK_STATE;
 		else
 			state = LOOPING_STATE;
-	}
-
-	private String addZeros(String s) {
-		if (s.length() == 1) {
-			s = "0" + s;
-		}
-		return s;
 	}
 
 	@Override

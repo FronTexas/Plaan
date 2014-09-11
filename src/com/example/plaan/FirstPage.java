@@ -1,7 +1,5 @@
 package com.example.plaan;
 
-import com.example.plaan.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

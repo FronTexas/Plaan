@@ -2,6 +2,7 @@ package com.example.plaan;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import android.util.Log;
 import android.widget.TextView;
 
 public class TypefacePlaan {
@@ -39,6 +40,8 @@ public class TypefacePlaan {
 			v.setTypeface(pacifico);
 			break;
 		case LEAGUE_GOTHIC:
+			Log.d("Inflating Error", "IE -- v = " + v);
+			Log.d("Inflating Error", "IE -- leagueGothic = " + leagueGothic);
 			v.setTypeface(leagueGothic);
 			break;
 		case LEAGUE_GOTHIC_ITALIC:

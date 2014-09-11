@@ -66,7 +66,7 @@
                 android:visibility="invisible" />
         </RelativeLayout>
 
-        <com.example.plaandebug.AutoResizeTextView
+        <com.example.plaan.AutoResizeTextView
             android:id="@+id/tvActivitiesNameCD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

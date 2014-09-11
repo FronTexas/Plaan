@@ -107,7 +107,7 @@ public class CountDownTimerPlaan extends Service {
 
 		// run the actual timer
 		try {
-			activitiesCDT = new CountDownTimer(time, 1000) {
+			activitiesCDT = new CountDownTimer(time , 1000) {
 				public void onTick(long millisUntilFinished) {
 					// is the  countdown running
 					isTimerRunning = true;

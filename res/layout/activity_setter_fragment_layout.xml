@@ -93,7 +93,7 @@
                     android:textColor="@color/darkyellow"
                     android:textSize="20sp" />
 
-                <com.example.plaandebug.AutoResizeTextView
+                <com.example.plaan.AutoResizeTextView
                     android:id="@+id/tvStartHoursOneTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -159,7 +159,7 @@
                     android:textColor="@color/darkyellow"
                     android:textSize="20sp" />
 
-                <com.example.plaandebug.AutoResizeTextView
+                <com.example.plaan.AutoResizeTextView
                     android:id="@+id/tvEndHoursOneTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

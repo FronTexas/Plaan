@@ -128,27 +128,16 @@
                         android:layout_gravity="center_vertical"
                         android:src="@drawable/yellow_clock" />
 
-                    <EditText
-                        android:id="@+id/etTimeOneTime"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_toRightOf="@+id/ivYellowClock"
-                        android:background="@color/transparent"
-                        android:hint="00"
-                        android:inputType="numberSigned"
-                        android:textColor="@color/darkgrey"
-                        android:textColorHint="@color/greylightgrey"
-                        android:textCursorDrawable="@null"
-                        android:textSize="40sp" />
-
                     <TextView
-                        android:id="@+id/tvTimeTypeOneTime"
+                        android:id="@+id/tvSETpicker_oneTime"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:layout_toRightOf="@+id/etTimeOneTime"
-                        android:text="MIN"
-                        android:textColor="@color/darkyellow"
-                        android:textSize="40sp" />
+                        android:alpha="0.5"
+                        android:text="SET"
+                        android:textColor="@color/darkgrey"
+                        android:textSize="35sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -290,26 +279,14 @@
                         android:layout_marginLeft="40dp"
                         android:src="@drawable/yellow_looping_icon" />
 
-                    <EditText
-                        android:id="@+id/etLoopingTime"
+                    <TextView
+                        android:id="@+id/tvSetPicker_looping"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/transparent"
-                        android:hint="0"
-                        android:imeOptions="actionNext"
-                        android:inputType="numberSigned"
                         android:singleLine="true"
+                        android:text="SET"
                         android:textColor="@color/grey"
                         android:textColorHint="@color/greylightgrey"
-                        android:textCursorDrawable="@null"
-                        android:textSize="40sp" />
-
-                    <TextView
-                        android:id="@+id/tvLoopingTimeType"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="MIN"
-                        android:textColor="@color/darkyellow"
                         android:textSize="40sp" />
 
                     <ImageView
@@ -321,25 +298,13 @@
                         android:src="@drawable/yellow_break_icon"
                         android:textCursorDrawable="@null" />
 
-                    <EditText
-                        android:id="@+id/etBreakTime"
+                   <TextView
+                        android:id="@+id/tvSetPicker_breakLooping"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/transparent"
-                        android:hint="0"
-                        android:imeOptions="actionDone"
-                        android:inputType="numberSigned"
                         android:singleLine="true"
+                        android:text="SET"
                         android:textColor="@color/grey"
-                        android:textColorHint="@color/greylightgrey"
-                        android:textSize="40sp" />
-
-                    <TextView
-                        android:id="@+id/tvBreakTimeType"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="MIN"
-                        android:textColor="@color/darkyellow"
                         android:textSize="40sp" />
                 </LinearLayout>
             </LinearLayout>

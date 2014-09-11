@@ -1,7 +1,10 @@
 package com.example.plaan;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -9,7 +12,6 @@ import android.graphics.Color;
 import android.support.v4.app.FragmentManager;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -28,15 +30,15 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 
-import com.doomonafireball.betterpickers.timepicker.TimePickerDialogFragment.TimePickerDialogHandler;
+import com.doomonafireball.betterpickers.hmspicker.HmsPickerBuilder;
+import com.doomonafireball.betterpickers.hmspicker.HmsPickerDialogFragment;
 import com.zenkun.datetimepicker.time.RadialPickerLayout;
 import com.zenkun.datetimepicker.time.TimePickerDialog;
 import com.zenkun.datetimepicker.time.TimePickerDialog.OnTimeSetListener;
 
-@SuppressLint("ViewConstructor")
+@SuppressLint({ "ViewConstructor", "SimpleDateFormat" })
 public class ActivityCard extends RelativeLayout implements OnClickListener,
-		OnTimeSetListener, TextWatcher, OnEditorActionListener,
-		TimePickerDialogHandler {
+		OnTimeSetListener, TextWatcher, OnEditorActionListener {
 
 	TypefacePlaan tfp;
 
@@ -61,16 +63,16 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 	// oneTime
 	LinearLayout llOneTime;
 	TextView tvOneTime, tvLooping, tvStartOneTime, tvStartHoursOneTime,
-			tvEndOneTime, tvEndHoursOneTime, tvTimeTypeOneTime;
-	EditText etTimeOneTime;
+			tvEndOneTime, tvEndHoursOneTime, tvSetPicker_oneTime;
 
 	// looping
 	LinearLayout llLooping;
 	LinearLayout llStartEndLooping, rlStartSectionLooping, rlEndSectionLooping;
 	LinearLayout llLoopingSettings;
 	TextView tvStartLooping, tvStartHoursLooping, tvEndLooping,
-			tvEndHoursLooping, tvX, tvLoopingTimeType, tvBreakTimeType;
-	EditText etLoopingFreq, etLoopingTime, etBreakTime;
+			tvEndHoursLooping, tvX, tvSetPicker_looping,
+			tvSetPicker_breakLooping;
+	EditText etLoopingFreq;
 
 	// setButton
 	RelativeLayout rlSET_Button;
@@ -140,16 +142,13 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 		rlLoopingText.setOnClickListener(this);
 		tvStartHoursOneTime.setOnClickListener(this);
 		tvEndHoursOneTime.setOnClickListener(this);
-		tvTimeTypeOneTime.setOnClickListener(this);
-		etTimeOneTime.addTextChangedListener(this);
+		tvSetPicker_oneTime.setOnClickListener(this);
 
 		// looping
 		tvStartHoursLooping.setOnClickListener(this);
-		tvLoopingTimeType.setOnClickListener(this);
-		tvBreakTimeType.setOnClickListener(this);
 		etLoopingFreq.addTextChangedListener(this);
-		etLoopingTime.addTextChangedListener(this);
-		etBreakTime.addTextChangedListener(this);
+		tvSetPicker_looping.setOnClickListener(this);
+		tvSetPicker_breakLooping.setOnClickListener(this);
 
 		// setbutton
 		rlSET_Button.setOnClickListener(this);
@@ -216,10 +215,8 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 		tfp.setTypeface(tvStartHoursOneTime, TypefacePlaan.LEAGUE_GOTHIC);
 		tfp.setTypeface(tvX, TypefacePlaan.LEAGUE_GOTHIC);
 		tfp.setTypeface(etLoopingFreq, TypefacePlaan.LEAGUE_GOTHIC);
-		tfp.setTypeface(etLoopingTime, TypefacePlaan.LEAGUE_GOTHIC);
-		tfp.setTypeface(etBreakTime, TypefacePlaan.LEAGUE_GOTHIC);
-		tfp.setTypeface(tvLoopingTimeType, TypefacePlaan.LEAGUE_GOTHIC);
-		tfp.setTypeface(tvBreakTimeType, TypefacePlaan.LEAGUE_GOTHIC);
+		tfp.setTypeface(tvSetPicker_looping, TypefacePlaan.LEAGUE_GOTHIC);
+		tfp.setTypeface(tvSetPicker_breakLooping, TypefacePlaan.LEAGUE_GOTHIC);
 		tfp.setTypeface(tvIntervalLoopCD, TypefacePlaan.LEAGUE_GOTHIC);
 	}
 
@@ -230,8 +227,7 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 		tfp.setTypeface(tvStartHoursOneTime, TypefacePlaan.LEAGUE_GOTHIC);
 		tfp.setTypeface(tvEndOneTime, TypefacePlaan.OPEN_SANS_BOLD);
 		tfp.setTypeface(tvEndHoursOneTime, TypefacePlaan.LEAGUE_GOTHIC);
-		tfp.setTypeface(etTimeOneTime, TypefacePlaan.LEAGUE_GOTHIC);
-		tfp.setTypeface(tvTimeTypeOneTime, TypefacePlaan.LEAGUE_GOTHIC);
+		tfp.setTypeface(tvSetPicker_oneTime, TypefacePlaan.LEAGUE_GOTHIC);
 	}
 
 	public void setTvBreakVisibility(int visibility) {
@@ -271,15 +267,12 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 		tvEndHoursLooping = (TextView) findViewById(R.id.tvEndHoursLooping);
 		tvX = (TextView) findViewById(R.id.tvX);
 		etLoopingFreq = (EditText) findViewById(R.id.etLoopingFreq);
-		etLoopingTime = (EditText) findViewById(R.id.etLoopingTime);
-		etBreakTime = (EditText) findViewById(R.id.etBreakTime);
+		tvSetPicker_looping = (TextView) findViewById(R.id.tvSetPicker_looping);
+		tvSetPicker_breakLooping = (TextView) findViewById(R.id.tvSetPicker_breakLooping);
 		llOneTime = (LinearLayout) findViewById(R.id.llOneTime);
 		rlSET_Button = (RelativeLayout) findViewById(R.id.rlSET_Button);
 		tvSET = (TextView) findViewById(R.id.tvSET);
-		tvLoopingTimeType = (TextView) findViewById(R.id.tvLoopingTimeType);
-		tvBreakTimeType = (TextView) findViewById(R.id.tvBreakTimeType);
-		tvTimeTypeOneTime = (TextView) findViewById(R.id.tvTimeTypeOneTime);
-		etTimeOneTime = (EditText) findViewById(R.id.etTimeOneTime);
+		tvSetPicker_oneTime = (TextView) findViewById(R.id.tvSETpicker_oneTime);
 		tvCountDown = (TextView) findViewById(R.id.tvCountDown);
 		tvLoopingFreqCD = (TextView) findViewById(R.id.tvLoopingFreqCD);
 		tvXCD = (TextView) findViewById(R.id.tvXCD);
@@ -460,11 +453,6 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 			//			btp.addTimeSetListener(this);
 			//			btp.show();
 
-			//			HmsPickerBuilder hpb = new HmsPickerBuilder().setFragmentManager(
-			//					fragmentManager).setStyleResId(
-			//					R.style.BetterPickersDialogFragment);
-			//			hpb.show();
-
 		} else if (v.getId() == ivToDoButton.getId()
 				|| v.getId() == rlTaskLeftIcon.getId()) {
 			// TODO_BUTTON / rlTaskLeft
@@ -495,6 +483,30 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 			vgActivityCountDown.setVisibility(View.INVISIBLE);
 			rlActivitySetter.setVisibility(View.VISIBLE);
 			backToActivtySetterClicked = true;
+		} else if (v.getId() == R.id.tvSETpicker_oneTime) {
+			// Set Button in oneTime
+			HmsPickerBuilder hpb = new HmsPickerBuilder()
+					.setFragmentManager(fragmentManager)
+					.setStyleResId(R.style.BetterPickersDialogFragment)
+					.addHmsPickerDialogHandler(new MyCustomHandler())
+					.setReference(R.id.tvSETpicker_oneTime);
+			hpb.show();
+		} else if (v.getId() == R.id.tvSetPicker_looping) {
+			// Set Button for loopingTime
+			HmsPickerBuilder hpb = new HmsPickerBuilder()
+					.setFragmentManager(fragmentManager)
+					.setStyleResId(R.style.BetterPickersDialogFragment)
+					.addHmsPickerDialogHandler(new MyCustomHandler())
+					.setReference(R.id.tvSetPicker_looping);
+			hpb.show();
+		} else if (v.getId() == R.id.tvSetPicker_breakLooping) {
+			// Set Button for breakTime
+			HmsPickerBuilder hpb = new HmsPickerBuilder()
+					.setFragmentManager(fragmentManager)
+					.setStyleResId(R.style.BetterPickersDialogFragment)
+					.addHmsPickerDialogHandler(new MyCustomHandler())
+					.setReference(R.id.tvSetPicker_breakLooping);
+			hpb.show();
 		}
 		lastThingClicked = v.getId();
 	}
@@ -580,10 +592,9 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 			llLoopingPropertiesCD.setVisibility(View.VISIBLE);
 			tvIntervalLoopCD.setText(intervalFormatting(theActivity));
 			tvLoopingFreqCD.setText(etLoopingFreq.getText().toString());
-			tvLoopingTimeCD.setText(etLoopingTime.getText().toString()
-					+ tvLoopingTimeType.getText().toString());
-			tvBreakTimeCD.setText(etBreakTime.getText().toString()
-					+ tvBreakTimeType.getText().toString());
+			tvLoopingTimeCD.setText(tvSetPicker_looping.getText().toString());
+			tvBreakTimeCD
+					.setText(tvSetPicker_breakLooping.getText().toString());
 			tvActivityTypeCD.setText("Looping");
 			llOneTimePropertiesCD.setVisibility(View.INVISIBLE);
 
@@ -640,29 +651,19 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 
 		int[] loops = new int[1];
 		long[] loopTime = new long[1];
-		int[] loopType = new int[1];
 
 		long[] breakTime = new long[1];
 
-		int[] breakTimeType = new int[1];
-		retreiveLoopingIntervalParameters(startTime, loops, loopTime, loopType,
-				breakTime, breakTimeType);
+		retreiveLoopingIntervalParameters(startTime, loops, loopTime, breakTime);
 
 		theActivity.setInterval(startTime[0], loops[0], loopTime[0],
-				loopType[0], breakTime[0], breakTimeType[0]);
+				breakTime[0]);
 
 	}
 
 	private void setOneTimeProperties(ActivitiesPlaan theActivity) {
 		theActivity.setInterval(tvStartHoursOneTime.getText().toString(),
 				tvEndHoursOneTime.getText().toString());
-	}
-
-	private int checkForType(String ls) {
-		if (ls.equals("MIN")) {
-			return ActivitiesPlaan.LOOPTYPE_MINUTE;
-		}
-		return ActivitiesPlaan.LOOPTYPE_HOUR;
 	}
 
 	@Override
@@ -680,7 +681,7 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 			tvEndHoursOneTime.setText(addZeros("" + hourOfDay) + ":"
 					+ addZeros("" + minute));
 			tvEndHoursOneTime.setAlpha((float) 1.0);
-			etTimeOneTime.setText("");
+			tvSetPicker_oneTime.setText("SET");
 		} else if (lastThingClicked == tvStartHoursLooping.getId()) {
 			// set the startHours of Looping
 			tvStartHoursLooping.setText(addZeros("" + hourOfDay) + ":"
@@ -697,7 +698,7 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 
 	private boolean allOneTimePropertiesFilled() {
 		return tvStartHoursOneTime.getAlpha() == 1
-				&& !etTimeOneTime.getText().toString().equals("")
+				&& !tvSetPicker_oneTime.getText().toString().equals("SET")
 				&& tvEndOneTime.getAlpha() == 1;
 	}
 
@@ -710,42 +711,57 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 
 	@Override
 	public void onTextChanged(CharSequence arg0, int arg1, int arg2, int arg3) {
-		if (activity_type == ActivitiesPlaan.TYPE_LOOPING
-				&& allLoopingPropertiesFilled()) {
-			calculateLoopingInterval();
-		} else if (activity_type == ActivitiesPlaan.TYPE_ONE_TIME) {
-			// etTimeOneTime is listened
-			if (tvStartHoursOneTime.getText().toString().length() > 0
-					&& etTimeOneTime.getText().length() > 0)
-				calculateOneTimeInterval();
-		}
+
 	}
 
+	@SuppressWarnings("deprecation")
 	private void calculateOneTimeInterval() {
-		int interval = 0;
-		if (etTimeOneTime.getText().toString().length() > 0)
-			interval = Integer.parseInt(etTimeOneTime.getText().toString());
-		if (tvTimeTypeOneTime.getText().toString().equals("HRS")) {
-			interval = interval * 60;
+		long interval = 0;
+		SimpleDateFormat formatter = new SimpleDateFormat("hh:mm:ss");
+		String tvSetPicker_string = tvSetPicker_oneTime.getText().toString();
+		if (tvSetPicker_string.length() == 10) {
+			// HH:mm:ss formatter
+			formatter = new SimpleDateFormat("HH:mm:ss");
+		} else if (tvSetPicker_string.length() == 5) {
+			// mm:ss formatter
+			formatter = new SimpleDateFormat("mm:ss");
+		} else if (tvSetPicker_string.length() == 2) {
+			// ss formatter
+			formatter = new SimpleDateFormat("ss");
 		}
-		int startHours = Integer.parseInt(tvStartHoursOneTime.getText()
-				.toString().substring(0, 2));
-		int startMinutes = Integer.parseInt(tvStartHoursOneTime.getText()
-				.toString().substring(3));
-		int[] endHours = new int[1];
-		int[] endMinutes = new int[1];
-		int[] hoursIncreased = new int[1];
-		endHours[0] = startHours + interval / 60;
-		endMinutes[0] = startMinutes + interval % 60;
 
-		checkForMoreThan(endMinutes, 60, hoursIncreased);
-		endHours[0] += hoursIncreased[0];
-		checkForMoreThan(endHours, 24, hoursIncreased);
+		Date interval_date = null;
+		if (!tvSetPicker_string.equals("SET")) {
+			// If the tvSetPicker is already setted
+			try {
+				// parse the tvSetPicker text to make it a Date object
+				interval_date = formatter.parse(tvSetPicker_oneTime.getText()
+						.toString());
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+			// set the interval
+			interval = interval_date.getHours() * 3600000
+					+ interval_date.getMinutes() * 60000
+					+ interval_date.getSeconds() * 1000;
+		}
 
+		formatter = new SimpleDateFormat("HH:mm");
+		long startHours = 0;
+		try {
+			// parse startHours
+			Date startDate = formatter.parse(tvStartHoursOneTime.getText()
+					.toString());
+			startHours = startDate.getTime();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+
+		// Set up the endHours
+		long endHours = startHours + interval;
+		Date endHoursDate = new Date(endHours);
+		tvEndHoursOneTime.setText(formatter.format(endHoursDate));
 		tvEndHoursOneTime.setAlpha(1);
-		tvEndHoursOneTime.setText(addZeros("" + endHours[0]) + ":"
-				+ addZeros("" + endMinutes[0]));
-
 	}
 
 	private void calculateLoopingInterval() {
@@ -753,84 +769,81 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 
 		int[] loops = new int[1];
 		long[] loopTime = new long[1];
-		int[] loopType = new int[1];
 
 		long[] breakTime = new long[1];
 
-		int[] breakTimeType = new int[1];
-
-		retreiveLoopingIntervalParameters(startTime, loops, loopTime, loopType,
-				breakTime, breakTimeType);
+		retreiveLoopingIntervalParameters(startTime, loops, loopTime, breakTime);
 
 		ActivitiesPlaan toyActivities = new ActivitiesPlaan("toy",
 				ActivitiesPlaan.TYPE_LOOPING);
 		toyActivities.setInterval(startTime[0], loops[0], loopTime[0],
-				loopType[0], breakTime[0], breakTimeType[0]);
-
-		// debugging
-		Log.d("new time calculation error", "NTCE -- startTime = "
-				+ startTime[0]);
-		Log.d("new time calculation error", "NTCE -- loopTime = "
-				+ (loopTime[0] / (60 * 1000) % 60));
-		Log.d("new time calculation error", "NTCE -- breakTime = "
-				+ (breakTime[0] / (60 * 1000) % 60));
-		long interval = toyActivities.getInterval();
-		Log.d("new time calculation error", "NTCE -- interval = "
-				+ (interval / (60 * 60 * 1000) % 24) + ":"
-				+ (interval / (60 * 1000) % 60));
+				breakTime[0]);
 
 		tvEndHoursLooping.setAlpha(1);
 		tvEndHoursLooping.setText(toyActivities.getEndTime());
 	}
 
-	private void checkForMoreThan(int[] time, int usualNumber,
-			int[] hoursIncreased) {
-		while (time[0] >= usualNumber) {
-			time[0] -= usualNumber;
-			hoursIncreased[0]++;
-		}
-	}
-
+	@SuppressWarnings("deprecation")
 	private void retreiveLoopingIntervalParameters(String[] startTime,
-			int[] loops, long[] loopTime, int[] loopType, long[] breakTime,
-			int[] breakTimeType) {
+			int[] loops, long[] loopTime, long[] breakTime) {
 		startTime[0] = tvStartHoursLooping.getText().toString();
 
 		String loopsString = etLoopingFreq.getText().toString();
-		String loopTimeString = etLoopingTime.getText().toString();
-		String breakTimeString = etBreakTime.getText().toString();
+		String loopTimeString = tvSetPicker_looping.getText().toString();
+		SimpleDateFormat formatter = null;
 
+		if (loopTimeString.length() == 10) {
+			// HH:mm:ss formatter
+			formatter = new SimpleDateFormat("HH:mm:ss");
+		} else if (loopTimeString.length() == 5) {
+			// mm:ss formatter
+			formatter = new SimpleDateFormat("mm:ss");
+		} else if (loopTimeString.length() == 2) {
+			// ss formatter
+			formatter = new SimpleDateFormat("ss");
+		}
+
+		Date loopTime_date = null;
+		try {
+			loopTime_date = formatter.parse(loopTimeString);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		loopTime[0] = loopTime_date.getHours() * 3600000
+				+ loopTime_date.getMinutes() * 60000
+				+ loopTime_date.getSeconds() * 1000;
 		loops[0] = Integer.parseInt(loopsString);
 
-		loopTime[0] = Integer.parseInt(loopTimeString);
-		String loopTypeString = tvLoopingTimeType.getText().toString();
-		loopType[0] = checkForType(loopTypeString);
+		String breakTimeString = tvSetPicker_breakLooping.getText().toString();
 
-		if (loopType[0] == ActivitiesPlaan.LOOPTYPE_HOUR) {
-			loopTime[0] *= 1000;
-		} else {
-			loopTime[0] *= 60000;
+		if (breakTimeString.length() == 10) {
+			// HH:mm:ss formatter
+			formatter = new SimpleDateFormat("HH:mm:ss");
+		} else if (breakTimeString.length() == 6) {
+			// mm:ss formatter
+			formatter = new SimpleDateFormat("mm:ss");
+		} else if (breakTimeString.length() == 2) {
+			// ss formatter
+			formatter = new SimpleDateFormat("ss");
 		}
 
-		breakTime[0] = Integer.parseInt(breakTimeString);
-		String breakTimeTypeString = tvBreakTimeType.getText().toString();
-		breakTimeType[0] = checkForType(breakTimeTypeString);
-
-		if (breakTimeType[0] == ActivitiesPlaan.LOOPTYPE_HOUR) {
-			breakTime[0] *= 1000;
-		} else {
-			breakTime[0] *= 60000;
+		Date breakTime_date = null;
+		try {
+			breakTime_date = formatter.parse(breakTimeString);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		Log.d("new time calculation error",
-				"NTCE -- breakTime(in retreiving) = "
-						+ (breakTime[0] / (60 * 1000) % 60));
-
+		breakTime[0] = breakTime_date.getHours() * 3600000
+				+ breakTime_date.getMinutes() * 60000
+				+ breakTime_date.getSeconds() * 1000;
 	}
 
 	private boolean allLoopingPropertiesFilled() {
 		return (etLoopingFreq.getText().toString().length() != 0)
-				&& (etLoopingTime.getText().toString().length() != 0)
-				&& (etBreakTime.getText().toString().length() != 0);
+				&& (!tvSetPicker_looping.getText().toString().equals("SET"))
+				&& (!tvSetPicker_breakLooping.getText().toString()
+						.equals("SET"));
 	}
 
 	private void formatMillis(int[] format, long millisUntilFinished) {
@@ -866,34 +879,85 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 		ivCountDownClock.setImageResource(imageResourceId);
 	}
 
-	@Override
-	public void onDialogTimeSet(int hourOfDay, int minute) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void onDialogCancel() {
-		// TODO Auto-generated method stub
-
-	}
-
 	public void setActivitiesPlaan(ActivitiesPlaan theActivity) {
 		this.theActivity = theActivity;
 	}
 
-	//	@Override
-	//	public boolean onKey(View v, int keyCode, KeyEvent event) {
-	//		// debugging
-	//		Log.d("Return problem",
-	//				"RP -- event.getAction() = " + event.getAction());
-	//		switch (event.getAction()) {
-	//		case KeyEvent.KEYCODE_ENTER:
-	//			addTodoBar();
-	//			break;
-	//		default:
-	//			break;
-	//		}
-	//		return false;
-	//	}
+	class MyCustomHandler implements
+			HmsPickerDialogFragment.HmsPickerDialogHandler {
+		@Override
+		public void onDialogHmsSet(int reference, int hours, int minutes,
+				int seconds) {
+			if (reference == R.id.tvSETpicker_oneTime) {
+				// SET for oneTime
+
+				// the tvSetpicker text only will be temporary
+				tvSetPicker_oneTime
+						.setText(addZeros("" + hours) + ":"
+								+ addZeros("" + minutes) + ":"
+								+ addZeros("" + seconds));
+				if (activity_type == ActivitiesPlaan.TYPE_ONE_TIME
+						&& tvStartHoursOneTime.getText().toString().length() > 0
+						&& !tvSetPicker_oneTime.getText().toString()
+								.equals("SET")) {
+					// etTimeOneTime is listened
+					calculateOneTimeInterval();
+				}
+
+				// Update the tvsetpicker text to the better format
+				setCorrectTimeFormatText(tvSetPicker_oneTime, hours, minutes,
+						seconds);
+			} else if (reference == R.id.tvSetPicker_looping) {
+				// SET for LoopingTime
+
+				// the tvSetpicker text only will be temporary
+				tvSetPicker_looping
+						.setText(addZeros("" + hours) + ":"
+								+ addZeros("" + minutes) + ":"
+								+ addZeros("" + seconds));
+				if (activity_type == ActivitiesPlaan.TYPE_LOOPING
+						&& allLoopingPropertiesFilled()) {
+					calculateLoopingInterval();
+				}
+
+				// Update the tvsetpicker text to the better format
+				setCorrectTimeFormatText(tvSetPicker_looping, hours, minutes,
+						seconds);
+			} else if (reference == R.id.tvSetPicker_breakLooping) {
+				// SET for breakTime
+
+				// the tvSetpicker text only will be temporary
+				tvSetPicker_breakLooping
+						.setText(addZeros("" + hours) + ":"
+								+ addZeros("" + minutes) + ":"
+								+ addZeros("" + seconds));
+				if (activity_type == ActivitiesPlaan.TYPE_LOOPING
+						&& allLoopingPropertiesFilled()) {
+					calculateLoopingInterval();
+				}
+
+				// Update the tvsetpicker text to the better format
+				setCorrectTimeFormatText(tvSetPicker_breakLooping, hours,
+						minutes, seconds);
+			}
+		}
+
+		private void setCorrectTimeFormatText(TextView tv, int hours,
+				int minutes, int seconds) {
+			if (hours != 0) {
+				// HH:mm:ss
+				tv.setText(addZeros("" + hours) + ":" + addZeros("" + minutes)
+						+ ":" + addZeros("" + seconds));
+			} else if (hours == 0 && minutes != 0) {
+				// mm:ss
+				tv.setText(addZeros("" + minutes) + ":"
+						+ addZeros("" + seconds));
+			} else {
+				// ss with 's' in the end
+				tv.setText(addZeros("" + seconds) + "s");
+			}
+			tv.setAlpha(1);
+		}
+	}
+
 }
