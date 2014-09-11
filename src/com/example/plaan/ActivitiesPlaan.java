@@ -50,9 +50,7 @@ public class ActivitiesPlaan implements Parcelable {
 	// or breakTime if they happen to change in the runtime.
 	long original_looptime;
 	long original_breaktime;
-	long loopTimeType;
 	long breakTime;
-	long breakType;
 	long interval;
 
 	public static final Parcelable.Creator<ActivitiesPlaan> CREATOR = new Parcelable.Creator<ActivitiesPlaan>() {
@@ -76,9 +74,7 @@ public class ActivitiesPlaan implements Parcelable {
 		endTime_string = in.readString();
 		loops = in.readLong();
 		loopTime = in.readLong();
-		loopTimeType = in.readLong();
 		breakTime = in.readLong();
-		breakType = in.readLong();
 		interval = in.readLong();
 		state = in.readInt();
 		id = in.readInt();
@@ -93,10 +89,7 @@ public class ActivitiesPlaan implements Parcelable {
 		endTime = -1;
 		loops = -1;
 		loopTime = -1;
-		loopTimeType = -1;
 		breakTime = -1;
-		breakType = -1;
-		breakType = -1;
 		state = LOOPING_STATE;
 		this.interval = 0;
 		id = 0;
@@ -108,10 +101,7 @@ public class ActivitiesPlaan implements Parcelable {
 		endTime = -1;
 		loops = -1;
 		loopTime = -1;
-		loopTimeType = -1;
 		breakTime = -1;
-		breakType = -1;
-		breakType = -1;
 		state = LOOPING_STATE;
 		this.interval = 0;
 		id = 0;
@@ -351,9 +341,7 @@ public class ActivitiesPlaan implements Parcelable {
 		out.writeString(endTime_string);
 		out.writeLong(loops);
 		out.writeLong(loopTime);
-		out.writeLong(loopTimeType);
 		out.writeLong(breakTime);
-		out.writeLong(breakType);
 		out.writeLong(interval);
 		out.writeInt(state);
 		out.writeInt(id);
