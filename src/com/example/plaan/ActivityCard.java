@@ -142,7 +142,7 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 	 */
 	int lastThingClicked;
 
-	/** To concert int to density pixels */
+	/** To convert int to density pixels */
 	float scaleDP = getResources().getDisplayMetrics().density;
 
 	LayoutInflater layoutInflater;
