@@ -30,7 +30,9 @@ public class FirstPage extends Activity {
 				} catch (Exception e) {
 					e.printStackTrace();
 				} finally {
-					Intent i = new Intent(FirstPage.this, ScrollingUI.class);
+					//					Intent i = new Intent(FirstPage.this, ScrollingUI.class);
+					//					startActivity(i);
+					Intent i = new Intent(FirstPage.this, CalendarActivity.class);
 					startActivity(i);
 				}
 			}

@@ -8,6 +8,7 @@ import java.util.Date;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v4.app.FragmentManager;
 import android.text.Editable;
@@ -105,7 +106,7 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 	boolean backToActivtySetterClicked;
 
 	/**
-	 * The ViewGroup that will show user the page of list of 'to-do list' for
+	 * The ViewGroup will show user the page of list of 'to-do list' for
 	 * this particular activitiesPlaan.
 	 */
 	RelativeLayout rlToDo;
@@ -142,7 +143,7 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 	 */
 	int lastThingClicked;
 
-	/** To convert int to density pixels */
+	/** To convert int to density pixels in android screen */
 	float scaleDP = getResources().getDisplayMetrics().density;
 
 	LayoutInflater layoutInflater;
@@ -155,12 +156,10 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 			LayoutInflater layoutInflater, int tag, ScrollView parentScrollView) {
 		super(context);
 		tfp = new TypefacePlaan(context);
-		// this.timeLeft = timeLeft;
 		this.context = context;
 		this.layoutInflater = layoutInflater;
 		this.fragmentManager = fragmentManager;
 		lastThingClicked = 0;
-		//		scaleDP = getResources().getDisplayMetrics().density;
 		activity_type = ActivitiesPlaan.TYPE_ONE_TIME;
 		backToActivtySetterClicked = false;
 		this.tag = tag;
@@ -489,13 +488,14 @@ public class ActivityCard extends RelativeLayout implements OnClickListener,
 		} else if (v.getId() == ivToDoButton.getId()
 				|| v.getId() == rlTaskLeftIcon.getId()) {
 			// TODO_BUTTON / rlTaskLeft
-			vgActivityCountDown.setVisibility(View.GONE);
-			tvActivityNameTD.setText(theActivity.getName());
-			rlToDo.setVisibility(View.VISIBLE);
-
-			// make sure no todo_bar already there
-			if (todobar_idCounter == 0)
-				addTodoBar();
+			//			vgActivityCountDown.setVisibility(View.GONE);
+			//			tvActivityNameTD.setText(theActivity.getName());
+			//			rlToDo.setVisibility(View.VISIBLE);
+			//
+			//			// make sure no todo_bar already there
+			//			if (todobar_idCounter == 0)
+			//				addTodoBar();
+			
 
 		} else if (v.getId() == ivArrowBack.getId()) {
 			// ARROW_BACK from TODO_PAGE to CD_PAGE
