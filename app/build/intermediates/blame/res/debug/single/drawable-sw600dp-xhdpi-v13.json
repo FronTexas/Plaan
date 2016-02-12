@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-sw600dp-xhdpi-v13/ic_backspace_normal_dark.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-sw600dp-xhdpi-v13/ic_backspace_normal_dark.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-sw600dp-xhdpi-v13/ic_backspace_normal_light.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-sw600dp-xhdpi-v13/ic_backspace_normal_light.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-sw600dp-xhdpi-v13/ic_backspace_disabled_dark.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-sw600dp-xhdpi-v13/ic_backspace_disabled_dark.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-sw600dp-xhdpi-v13/ic_backspace_disabled_light.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-sw600dp-xhdpi-v13/ic_backspace_disabled_light.png"
+    }
+]

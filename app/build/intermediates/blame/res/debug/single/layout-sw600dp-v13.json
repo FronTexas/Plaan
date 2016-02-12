@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/three_keys_view_text.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-sw600dp-v13/three_keys_view_text.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/three_keys_view_leftright.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-sw600dp-v13/three_keys_view_leftright.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/three_keys_view_right_drawable.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-sw600dp-v13/three_keys_view_right_drawable.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/calendar_date_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-sw600dp-v13/calendar_date_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/three_keys_view.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-sw600dp-v13/three_keys_view.xml"
+    }
+]

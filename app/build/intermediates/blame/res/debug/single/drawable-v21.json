@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-v21/mdtp_material_button_selected.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-v21/mdtp_material_button_selected.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-v21/key_background_light.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-v21/key_background_light.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-v21/key_background_dark.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-v21/key_background_dark.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-v21/button_background_dark.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-v21/button_background_dark.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-v21/bp_material_button_background.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-v21/bp_material_button_background.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-v21/button_background_light.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-v21/button_background_light.xml"
+    }
+]

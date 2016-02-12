@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-land/expiration_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-land/expiration_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-land/time_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-land/time_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-land/hms_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-land/hms_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-land/number_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-land/number_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-land/calendar_date_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-land/calendar_date_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-land/date_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-land/date_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout-land/radial_time_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout-land/radial_time_picker_dialog.xml"
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/slide_up_right.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/slide_up_right.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/open_next.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/open_next.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/slide_up_left.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/slide_up_left.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/translate.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/translate.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/close_next.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/close_next.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/open_main.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/open_main.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/zoom_in.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/zoom_in.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/down_from_top_w_alpha.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/down_from_top_w_alpha.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/close_main.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/close_main.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/up_from_bottom.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/up_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/down_from_top_wt_alpha.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/anim/down_from_top_wt_alpha.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_slide_out_top.xml"
+    }
+]

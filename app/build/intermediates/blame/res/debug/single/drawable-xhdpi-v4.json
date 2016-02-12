@@ -1,0 +1,626 @@
+[
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_time_button.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/set_time_button.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_plus_button.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_plus_button.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dark_blue_transparent_text_box.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/dark_blue_transparent_text_box.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spinner_pressed_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/spinner_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaan_clock2.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaan_clock2.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_recurrence_bubble_disabled.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_recurrence_bubble_disabled.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/blue_big_box.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/blue_big_box.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_time_left_clock.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_time_left_clock.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/blue_big_box_long.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/blue_big_box_long.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/sleeping_cloud.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/sleeping_cloud.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_arrow.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_arrow.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_blue_checked_box.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_blue_checked_box.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/blue_plus_button_darker.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/blue_plus_button_darker.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaanyourday_arrow.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaanyourday_arrow.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/blue_plaan_clock.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/blue_plaan_clock.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_arrow_forward.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_arrow_forward.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/light_blue_decoy_check_box.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/light_blue_decoy_check_box.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_pressed_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_the_time.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/set_the_time.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_backspace_disabled_light.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_backspace_disabled_light.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_plaan.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/icon_plaan.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/to_do_bar.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/to_do_bar.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_backspace_disabled_dark.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_backspace_disabled_dark.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/red_date_day_barx.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/red_date_day_barx.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaanlogo.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaanlogo.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/grey_cardz.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/grey_cardz.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/red_date_day_barxx.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/red_date_day_barxx.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/grey_weather_bar.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/grey_weather_bar.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_selector_disabled_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaan_general_clock_3.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaan_general_clock_3.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_dots_for_timeline.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_dots_for_timeline.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_backspace_normal_dark.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_backspace_normal_dark.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_check_normal_dark.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_check_normal_dark.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/red_date_day_bar_eo.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/red_date_day_bar_eo.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/red_date_day_baryyyy.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/red_date_day_baryyyy.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/titikdua.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/titikdua.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_break_icon.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_break_icon.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/next_button_small.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/next_button_small.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_minutes_textbox.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_minutes_textbox.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dialog_full_holo_dark.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/dialog_full_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaan_icon_large.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaan_icon_large.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/clock_plaan_minutes.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/clock_plaan_minutes.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_task_left.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_task_left.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spinner_default_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/spinner_default_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/one_time_or_looping_blue_selection_bar.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/one_time_or_looping_blue_selection_bar.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_task_icon.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_task_icon.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/custom.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/custom.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_simple_clock.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_simple_clock.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_check_normal_light.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_check_normal_light.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/add_time_button.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/add_time_button.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_clear_search_holo_light.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_clear_search_holo_light.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dialog_full_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/dialog_full_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaanlogotext.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaanlogotext.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_add_time_icon.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_add_time_icon.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/red_date_day_bar_ea.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/red_date_day_bar_ea.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textfield_focused_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/textfield_focused_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/smallest_red_circle.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/smallest_red_circle.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_check_light_disabled.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_check_light_disabled.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaan_general_clock.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaan_general_clock.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/blue_big_box2.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/blue_big_box2.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/colon_smallest.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/colon_smallest.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textfield_disabled_focused_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/textfield_disabled_focused_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/zerzero_time_backgroid.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/zerzero_time_backgroid.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/colon_small.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/colon_small.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_backspace_normal_light.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_backspace_normal_light.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/light_blue_check_box.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/light_blue_check_box.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spinner_disabled_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/spinner_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaanlogobmp.bmp",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaanlogobmp.bmp"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_search_holo_light.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_search_holo_light.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaan_icon_small.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaan_icon_small.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaanlogo2.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaanlogo2.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/start_yellow_button_selector.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/start_yellow_button_selector.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/red_plus_button.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/red_plus_button.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_seperator.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_seperator.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/red_date_day_bar.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/red_date_day_bar.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaan_clock.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaan_clock.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dash_time_seperator.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/dash_time_seperator.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaanlogosmall.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaanlogosmall.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spinner_focused_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/spinner_focused_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaan_logo_with_shadow.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaan_logo_with_shadow.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/wtdws_clock.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/wtdws_clock.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_focused_holo.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/blue_plus_button.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/blue_plus_button.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/red_date_day_barxxzz.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/red_date_day_barxxzz.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textfield_disabled_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/textfield_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/grey_plaan_clock.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/grey_plaan_clock.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/red_date_day_barsss.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/red_date_day_barsss.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_recurrence_bubble_fill.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_recurrence_bubble_fill.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/next_button.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/next_button.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaan_icon2.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaan_icon2.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaan_icon.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaan_icon.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/red_date_day_barsysy.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/red_date_day_barsysy.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_looping_icon.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_looping_icon.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/smallest_yellow_circle.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/smallest_yellow_circle.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_plaanish_clock.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_plaanish_clock.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_longpressed_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/list_longpressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/et_todo.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/et_todo.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_time_button_black.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/set_time_button_black.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plaan_general_clock_4.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/plaan_general_clock_4.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_check_box.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_check_box.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textfield_default_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/textfield_default_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_recurrence_bubble_outline.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_recurrence_bubble_outline.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textfield_activated_holo_light.9.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/textfield_activated_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_check_dark_disabled.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_check_dark_disabled.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_clock.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_clock.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/pm_transparent.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/pm_transparent.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/down_arrow.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/down_arrow.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/blue_time_frame.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/blue_time_frame.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_recurrence_bubble_outline_disabled.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/drawable-xhdpi-v4/ic_recurrence_bubble_outline_disabled.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yellow_arrow_backward.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/yellow_arrow_backward.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/blue_plus_button_selector.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/blue_plus_button_selector.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/green_play_clock.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/drawable-xhdpi/green_play_clock.png"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png"
+    }
+]
