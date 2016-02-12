@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyCustomBetterPickerTheme">
+        <item name="bpDialogBackground">@drawable/grey_cardz</item>
+        <item name="bpTextColor">@color/darkyellow</item>
+    </style>
+
+</resources>

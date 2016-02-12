@@ -1,0 +1,1695 @@
+[
+    {
+        "outputFile": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/values-cs/values-cs.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 6,
+                    "endColumn": 14,
+                    "endOffset": 340
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endLine": 6,
+                        "endColumn": 14,
+                        "endOffset": 340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 345,
+                    "endLine": 11,
+                    "endColumn": 14,
+                    "endOffset": 580
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 345,
+                        "endLine": 11,
+                        "endColumn": 14,
+                        "endOffset": 580
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 585,
+                    "endLine": 16,
+                    "endColumn": 14,
+                    "endOffset": 905
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 585,
+                        "endLine": 16,
+                        "endColumn": 14,
+                        "endOffset": 905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 910,
+                    "endLine": 23,
+                    "endColumn": 14,
+                    "endOffset": 1259
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 910,
+                        "endLine": 23,
+                        "endColumn": 14,
+                        "endOffset": 1259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1264,
+                    "endLine": 30,
+                    "endColumn": 14,
+                    "endOffset": 1621
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1264,
+                        "endLine": 30,
+                        "endColumn": 14,
+                        "endOffset": 1621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1626,
+                    "endLine": 37,
+                    "endColumn": 14,
+                    "endOffset": 1982
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1626,
+                        "endLine": 37,
+                        "endColumn": 14,
+                        "endOffset": 1982
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1987,
+                    "endLine": 44,
+                    "endColumn": 14,
+                    "endOffset": 2337
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1987,
+                        "endLine": 44,
+                        "endColumn": 14,
+                        "endOffset": 2337
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2342,
+                    "endLine": 49,
+                    "endColumn": 14,
+                    "endOffset": 2708
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2342,
+                        "endLine": 49,
+                        "endColumn": 14,
+                        "endOffset": 2708
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2713,
+                    "endColumn": 106,
+                    "endOffset": 2815
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 106,
+                        "endOffset": 331
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2820,
+                    "endColumn": 108,
+                    "endOffset": 2924
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 336,
+                        "endColumn": 108,
+                        "endOffset": 440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2929,
+                    "endColumn": 123,
+                    "endOffset": 3048
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 445,
+                        "endColumn": 123,
+                        "endOffset": 564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3053,
+                    "endColumn": 101,
+                    "endOffset": 3150
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 569,
+                        "endColumn": 101,
+                        "endOffset": 666
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3155,
+                    "endColumn": 108,
+                    "endOffset": 3259
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 671,
+                        "endColumn": 108,
+                        "endOffset": 775
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3264,
+                    "endColumn": 85,
+                    "endOffset": 3345
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 780,
+                        "endColumn": 85,
+                        "endOffset": 861
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3350,
+                    "endColumn": 104,
+                    "endOffset": 3450
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 866,
+                        "endColumn": 104,
+                        "endOffset": 966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 3455,
+                    "endColumn": 116,
+                    "endOffset": 3567
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 971,
+                        "endColumn": 116,
+                        "endOffset": 1083
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 3572,
+                    "endColumn": 80,
+                    "endOffset": 3648
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1088,
+                        "endColumn": 80,
+                        "endOffset": 1164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 3653,
+                    "endColumn": 80,
+                    "endOffset": 3729
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1169,
+                        "endColumn": 80,
+                        "endOffset": 1245
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3734,
+                    "endColumn": 83,
+                    "endOffset": 3813
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1250,
+                        "endColumn": 83,
+                        "endOffset": 1329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 3818,
+                    "endColumn": 103,
+                    "endOffset": 3917
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1334,
+                        "endColumn": 103,
+                        "endOffset": 1433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 3922,
+                    "endColumn": 108,
+                    "endOffset": 4026
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1438,
+                        "endColumn": 108,
+                        "endOffset": 1542
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 4031,
+                    "endColumn": 98,
+                    "endOffset": 4125
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1547,
+                        "endColumn": 98,
+                        "endOffset": 1641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 4130,
+                    "endColumn": 105,
+                    "endOffset": 4231
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1646,
+                        "endColumn": 105,
+                        "endOffset": 1747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 4236,
+                    "endColumn": 109,
+                    "endOffset": 4341
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1752,
+                        "endColumn": 109,
+                        "endOffset": 1857
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4346,
+                    "endColumn": 106,
+                    "endOffset": 4448
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1862,
+                        "endColumn": 106,
+                        "endOffset": 1964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 4453,
+                    "endColumn": 121,
+                    "endOffset": 4570
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1969,
+                        "endColumn": 121,
+                        "endOffset": 2086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 4575,
+                    "endColumn": 97,
+                    "endOffset": 4668
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2091,
+                        "endColumn": 97,
+                        "endOffset": 2184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 4673,
+                    "endColumn": 89,
+                    "endOffset": 4758
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2713,
+                        "endColumn": 89,
+                        "endOffset": 2798
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 4763,
+                    "endColumn": 37,
+                    "endOffset": 4796
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2803,
+                        "endColumn": 37,
+                        "endOffset": 2836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 4801,
+                    "endColumn": 65,
+                    "endOffset": 4862
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2841,
+                        "endColumn": 65,
+                        "endOffset": 2902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 4867,
+                    "endColumn": 69,
+                    "endOffset": 4932
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2907,
+                        "endColumn": 69,
+                        "endOffset": 2972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 4937,
+                    "endColumn": 52,
+                    "endOffset": 4985
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2977,
+                        "endColumn": 52,
+                        "endOffset": 3025
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 4990,
+                    "endColumn": 45,
+                    "endOffset": 5031
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3030,
+                        "endColumn": 45,
+                        "endOffset": 3071
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 5036,
+                    "endColumn": 70,
+                    "endOffset": 5102
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 3076,
+                        "endColumn": 70,
+                        "endOffset": 3142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 5107,
+                    "endColumn": 77,
+                    "endOffset": 5180
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 3147,
+                        "endColumn": 77,
+                        "endOffset": 3220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 5185,
+                    "endColumn": 57,
+                    "endOffset": 5238
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 3225,
+                        "endColumn": 57,
+                        "endOffset": 3278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 5243,
+                    "endColumn": 68,
+                    "endOffset": 5307
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 3283,
+                        "endColumn": 68,
+                        "endOffset": 3347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 5312,
+                    "endColumn": 52,
+                    "endOffset": 5360
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 3352,
+                        "endColumn": 52,
+                        "endOffset": 3400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 5365,
+                    "endColumn": 54,
+                    "endOffset": 5415
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 3405,
+                        "endColumn": 54,
+                        "endOffset": 3455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 5420,
+                    "endColumn": 54,
+                    "endOffset": 5470
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3460,
+                        "endColumn": 54,
+                        "endOffset": 3510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 5475,
+                    "endColumn": 72,
+                    "endOffset": 5543
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3515,
+                        "endColumn": 72,
+                        "endOffset": 3583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 5548,
+                    "endColumn": 41,
+                    "endOffset": 5585
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3588,
+                        "endColumn": 41,
+                        "endOffset": 3625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 5590,
+                    "endColumn": 57,
+                    "endOffset": 5643
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3630,
+                        "endColumn": 57,
+                        "endOffset": 3683
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 5648,
+                    "endColumn": 57,
+                    "endOffset": 5701
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3688,
+                        "endColumn": 57,
+                        "endOffset": 3741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 5706,
+                    "endColumn": 79,
+                    "endOffset": 5781
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3746,
+                        "endColumn": 79,
+                        "endOffset": 3821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 5786,
+                    "endColumn": 79,
+                    "endOffset": 5861
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 3826,
+                        "endColumn": 79,
+                        "endOffset": 3901
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 5866,
+                    "endColumn": 83,
+                    "endOffset": 5945
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3906,
+                        "endColumn": 83,
+                        "endOffset": 3985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 5950,
+                    "endColumn": 74,
+                    "endOffset": 6020
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3990,
+                        "endColumn": 74,
+                        "endOffset": 4060
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 6025,
+                    "endColumn": 43,
+                    "endOffset": 6064
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 4065,
+                        "endColumn": 43,
+                        "endOffset": 4104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 6069,
+                    "endColumn": 59,
+                    "endOffset": 6124
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 4109,
+                        "endColumn": 59,
+                        "endOffset": 4164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 6129,
+                    "endColumn": 41,
+                    "endOffset": 6166
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 4169,
+                        "endColumn": 41,
+                        "endOffset": 4206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 6171,
+                    "endColumn": 43,
+                    "endOffset": 6210
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 4211,
+                        "endColumn": 43,
+                        "endOffset": 4250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 6215,
+                    "endColumn": 55,
+                    "endOffset": 6266
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 4255,
+                        "endColumn": 55,
+                        "endOffset": 4306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 6271,
+                    "endColumn": 48,
+                    "endOffset": 6315
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 4311,
+                        "endColumn": 48,
+                        "endOffset": 4355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 6320,
+                    "endColumn": 55,
+                    "endOffset": 6371
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 4360,
+                        "endColumn": 55,
+                        "endOffset": 4411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 6376,
+                    "endColumn": 56,
+                    "endOffset": 6428
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 4416,
+                        "endColumn": 56,
+                        "endOffset": 4468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 6433,
+                    "endColumn": 53,
+                    "endOffset": 6482
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 4473,
+                        "endColumn": 53,
+                        "endOffset": 4522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 6487,
+                    "endColumn": 60,
+                    "endOffset": 6543
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 4527,
+                        "endColumn": 60,
+                        "endOffset": 4583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 6548,
+                    "endColumn": 48,
+                    "endOffset": 6592
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 4588,
+                        "endColumn": 48,
+                        "endOffset": 4632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 6597,
+                    "endColumn": 47,
+                    "endOffset": 6640
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 4637,
+                        "endColumn": 47,
+                        "endOffset": 4680
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 6645,
+                    "endColumn": 62,
+                    "endOffset": 6703
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 4685,
+                        "endColumn": 62,
+                        "endOffset": 4743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 6708,
+                    "endColumn": 61,
+                    "endOffset": 6765
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 4748,
+                        "endColumn": 61,
+                        "endOffset": 4805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 6770,
+                    "endColumn": 71,
+                    "endOffset": 6837
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 4810,
+                        "endColumn": 71,
+                        "endOffset": 4877
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 6842,
+                    "endColumn": 78,
+                    "endOffset": 6916
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 4882,
+                        "endColumn": 78,
+                        "endOffset": 4956
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 6921,
+                    "endColumn": 61,
+                    "endOffset": 6978
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 4961,
+                        "endColumn": 61,
+                        "endOffset": 5018
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 6983,
+                    "endColumn": 82,
+                    "endOffset": 7061
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 5023,
+                        "endColumn": 82,
+                        "endOffset": 5101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 7066,
+                    "endColumn": 49,
+                    "endOffset": 7111
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 5106,
+                        "endColumn": 49,
+                        "endOffset": 5151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 7116,
+                    "endColumn": 45,
+                    "endOffset": 7157
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 5156,
+                        "endColumn": 45,
+                        "endOffset": 5197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 7162,
+                    "endColumn": 64,
+                    "endOffset": 7222
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 5202,
+                        "endColumn": 64,
+                        "endOffset": 5262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 7227,
+                    "endColumn": 43,
+                    "endOffset": 7266
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 5267,
+                        "endColumn": 43,
+                        "endOffset": 5306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 7271,
+                    "endColumn": 60,
+                    "endOffset": 7327
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 5311,
+                        "endColumn": 60,
+                        "endOffset": 5367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 7332,
+                    "endColumn": 56,
+                    "endOffset": 7384
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 5372,
+                        "endColumn": 56,
+                        "endOffset": 5424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 7389,
+                    "endColumn": 55,
+                    "endOffset": 7440
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 5429,
+                        "endColumn": 55,
+                        "endOffset": 5480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 7445,
+                    "endColumn": 57,
+                    "endOffset": 7498
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 5485,
+                        "endColumn": 57,
+                        "endOffset": 5538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 7503,
+                    "endColumn": 49,
+                    "endOffset": 7548
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 5543,
+                        "endColumn": 49,
+                        "endOffset": 5588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 7553,
+                    "endColumn": 100,
+                    "endOffset": 7649
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2189,
+                        "endColumn": 100,
+                        "endOffset": 2285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 7654,
+                    "endColumn": 46,
+                    "endOffset": 7696
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 5593,
+                        "endColumn": 46,
+                        "endOffset": 5635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 7701,
+                    "endColumn": 45,
+                    "endOffset": 7742
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 5640,
+                        "endColumn": 45,
+                        "endOffset": 5681
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 7747,
+                    "endColumn": 52,
+                    "endOffset": 7795
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 5686,
+                        "endColumn": 52,
+                        "endOffset": 5734
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 7800,
+                    "endColumn": 52,
+                    "endOffset": 7848
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 5739,
+                        "endColumn": 52,
+                        "endOffset": 5787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 7853,
+                    "endColumn": 53,
+                    "endOffset": 7902
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 5792,
+                        "endColumn": 53,
+                        "endOffset": 5841
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 7907,
+                    "endColumn": 56,
+                    "endOffset": 7959
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 5846,
+                        "endColumn": 56,
+                        "endOffset": 5898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 7964,
+                    "endColumn": 47,
+                    "endOffset": 8007
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 5903,
+                        "endColumn": 47,
+                        "endOffset": 5946
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 8012,
+                    "endColumn": 44,
+                    "endOffset": 8052
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 5951,
+                        "endColumn": 44,
+                        "endOffset": 5991
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 8057,
+                    "endColumn": 47,
+                    "endOffset": 8100
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 5996,
+                        "endColumn": 47,
+                        "endOffset": 6039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 8105,
+                    "endColumn": 38,
+                    "endOffset": 8139
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 6044,
+                        "endColumn": 38,
+                        "endOffset": 6078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 8144,
+                    "endColumn": 63,
+                    "endOffset": 8203
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 6083,
+                        "endColumn": 63,
+                        "endOffset": 6142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 8208,
+                    "endColumn": 46,
+                    "endOffset": 8250
+                },
+                "from": {
+                    "file": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 6147,
+                        "endColumn": 46,
+                        "endOffset": 6189
+                    }
+                }
+            }
+        ]
+    }
+]

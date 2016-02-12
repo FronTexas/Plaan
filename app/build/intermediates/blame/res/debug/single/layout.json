@@ -1,0 +1,338 @@
+[
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/keyboard_right_drawable_with_header.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/keyboard_right_drawable_with_header.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/keyboard.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/keyboard.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/todo_yellow_bar.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/layout/todo_yellow_bar.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/expiration_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/expiration_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/keyboard_text_with_header.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/keyboard_text_with_header.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/scrolling_ui_main.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/layout/scrolling_ui_main.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/time_zone_filter_item.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/time_zone_filter_item.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/recurrencepicker_end_text.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/recurrencepicker_end_text.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/three_keys_view.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/three_keys_view.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/calendar_date_picker_header_view.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/calendar_date_picker_header_view.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/timezonepickerview.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/timezonepickerview.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/three_keys_view_leftright.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/three_keys_view_leftright.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/date_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/date_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/calendar_date_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/calendar_date_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/calendar_layout.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/layout/calendar_layout.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/time_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/time_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/time_picker_view.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/time_picker_view.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/hms_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/hms_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/layout_ok_cancel_buttons.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/layout_ok_cancel_buttons.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/calendar_date_picker_selected_date.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/calendar_date_picker_selected_date.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/empty_time_zone_item.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/empty_time_zone_item.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/expiration_picker_view.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/expiration_picker_view.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/hms_picker_view.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/hms_picker_view.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/activity_card_layout.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/layout/activity_card_layout.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/preference.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/2.0.1/res/layout/preference.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/radial_time_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/radial_time_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/keyboard_with_header.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/keyboard_with_header.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/recurrencepicker.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/recurrencepicker.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/activity_countdown_fragment_layout.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/layout/activity_countdown_fragment_layout.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/radial_time_header_label.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/radial_time_header_label.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/number_picker_dialog.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/number_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/keyboard_right_drawable.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/keyboard_right_drawable.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/keyboard_text.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/keyboard_text.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/calendar_date_picker_view_animator.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/calendar_date_picker_view_animator.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/calendar_year_label_text_view.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/calendar_year_label_text_view.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/three_keys_view_text.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/three_keys_view_text.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/activity_setter_fragment_layout.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/layout/activity_setter_fragment_layout.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/preference_widget_switch.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/2.0.1/res/layout/preference_widget_switch.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/first_page.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/layout/first_page.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/time_zone_item.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/time_zone_item.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/activity_todo_fragment_layout.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/layout/activity_todo_fragment_layout.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/free_time_card.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/src/main/res/layout/free_time_card.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/date_picker_view.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/date_picker_view.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/number_picker_view.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/number_picker_view.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/recurrencepicker_freq_item.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/recurrencepicker_freq_item.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/niclam/Downloads/Plaan/app/build/intermediates/res/merged/debug/layout/three_keys_view_right_drawable.xml",
+        "source": "/Users/niclam/Downloads/Plaan/app/build/intermediates/exploded-aar/com.code-troopers.betterpickers/library/2.5.1/res/layout/three_keys_view_right_drawable.xml"
+    }
+]
